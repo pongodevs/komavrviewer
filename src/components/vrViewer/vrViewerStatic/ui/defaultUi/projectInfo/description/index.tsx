@@ -1,7 +1,6 @@
 import { useContext, useState, useRef} from "react";
-import Button from "@/components/common/button";
 import { VrViewerStaticContext } from "../../../..";
-import { VrViewerContext } from "@/components/homepage/bodyContainer/vrViewer";
+import { VrViewerContext } from "@/components/vrViewer";
 
 const Description = () => {
     const textareaRef = useRef<HTMLTextAreaElement>(null)
@@ -64,22 +63,6 @@ const Description = () => {
                         fontWeight:`400`
                     }}
                 />
-                <div
-                    style={{
-                        display:`flex`
-                    }}
-                >
-                    <Button
-                        label='Submit text'
-                        onClick={()=>{
-                            if(textareaRef.current){
-                                selectedProject.info.text = textareaRef.current.value
-                                setSelectedProject(prev=>{return {...prev}})
-                            }
-                            setIsDoubleClick(false)
-                        }}
-                    />
-                </div>
             </div>
         </>
     );

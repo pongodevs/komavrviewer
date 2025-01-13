@@ -1,6 +1,6 @@
 import {useRef, useEffect, useContext} from 'react';
 import { VrViewerStaticContext } from '../../../../..';
-import { VrViewerContext } from '@/components/homepage/bodyContainer/vrViewer';
+import { VrViewerContext } from '@/components/vrViewer';
 const Instruction = () => {
 
     const { isGameStart, borderRadius} = useContext(VrViewerStaticContext)

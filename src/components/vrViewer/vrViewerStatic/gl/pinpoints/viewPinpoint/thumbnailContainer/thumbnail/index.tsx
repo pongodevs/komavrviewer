@@ -1,7 +1,7 @@
 import { useContext, useMemo } from "react";
 import * as THREE from 'three';
 import { ViewPinpointContext } from "../..";
-import { VrViewerContext } from "@/components/homepage/bodyContainer/vrViewer";
+import { VrViewerContext } from "@/components/vrViewer";
 
 const textureLoader = new THREE.TextureLoader()
 const Thumbnail = () => {

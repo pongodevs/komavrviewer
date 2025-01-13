@@ -7,7 +7,7 @@ import FullscreenUi from "./fullscreenUi";
 import MenuUi from "./menuUi";
 import { isDesktop, isMobile, isTablet } from "react-device-detect";
 import DeviceOrientation from "./deviceOrientation";
-import { VrViewerStaticContext } from "@/components/homepage/bodyContainer/vrViewer/vrViewerStatic";
+import { VrViewerStaticContext } from "../..";
 
 
 type TopgolfUiContextType = {

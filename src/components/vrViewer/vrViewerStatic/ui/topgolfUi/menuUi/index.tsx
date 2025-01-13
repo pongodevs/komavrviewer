@@ -1,9 +1,9 @@
 import { useContext } from "react";
 import { IoIosMenu } from "react-icons/io";
-import { VrViewerStaticContext } from "@/components/homepage/bodyContainer/vrViewer/vrViewerStatic";
-import { VrViewerContext } from "@/components/homepage/bodyContainer/vrViewer";
 import { TopgolfUiContext } from "..";
 import { isDesktop } from "react-device-detect";
+import { VrViewerContext } from "@/components/vrViewer";
+import { VrViewerStaticContext } from "../../..";
 
 const MenuUi = () => {
     const {selectedProject} = useContext(VrViewerContext)

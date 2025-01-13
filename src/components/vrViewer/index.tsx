@@ -1,18 +1,13 @@
 import { SceneType, ViewListType, VrProjectType, sceneObject, viewListObject, vrProjectObject } from "@/types/vrProjectType";
-import { Dispatch, SetStateAction, createContext, useEffect, useState } from "react";
+import { Dispatch,  SetStateAction, createContext, useEffect, useState } from "react";
 import VrViewerStatic from "./vrViewerStatic";
-import { doc, getDoc } from "firebase/firestore";
-import useFirebase from "@/hooks/firebase";
 import { useRouter } from "next/router";
-import VrViewerDynamic from "./vrViewerDynamic";
 import * as THREE from 'three'
 import { isDesktop } from "react-device-detect";
 import LoadingManager from "./loadingManager";
-import VrViewerDepth from "./vrViewerDepth";
 import useDecoder from "@/hooks/decoder";
 import _ from "lodash";
 import { userObject, UserType } from "@/types/userType";
-import jwtDecode from "jwt-decode";
 import DialogBoxContainer from "./dialogBoxContainer";
 import LoadingOverlay from "./loadingOverlay";
 
@@ -52,9 +47,9 @@ const loadingManager = new THREE.LoadingManager()
 const textureLoader = new THREE.TextureLoader(loadingManager)
 
 
-const VrViewer = () => {
+const VrViewer = ({vrProject}:{vrProject:VrProjectType}) => {
+    const [selectedProject, setSelectedProject] = useState(vrProject)
     // Global Variable
-    const [selectedProject, setSelectedProject] = useState<VrProjectType>(vrProjectObject)
     const [enableOrbitControl, setEnableOrbitControl] = useState(true)
     const [selectedScene, setSelectedScene] = useState(sceneObject)
     const [currentView, setCurrentView] = useState(viewListObject)
@@ -67,9 +62,7 @@ const VrViewer = () => {
     // Depth VR
     const [loadedViews, setLoadedViews] = useState([] as ViewListType[])
 
-
     const router = useRouter()
-    const {db} = useFirebase()
     const  {projectId} = router.query
 
     const {decode16BitPng} = useDecoder()
@@ -79,113 +72,36 @@ const VrViewer = () => {
     const isDev = router.route.toLowerCase().includes('developer')
     // Is local
     const [isLocal, setIsLocal] = useState(false)
-    useEffect(()=>{
-        if(origin === 'http://localhost:3000'){
-            setIsLocal(true)
-        }
-    },[])
 
-    // Set Login user
-    useEffect(()=>{
-        const token = localStorage.getItem('token')
-        if(token){
-            setLoginUser(jwtDecode(token))
-        }
-        else{
-            // router.push('/vrProjects/allProjects')
-        }
-    },[])
 
     // Init project
     useEffect(()=>{
         const init = async ()=>{
-            
-            if(!projectId) return
-            const projectDoc = doc(db, 'vrProjects', projectId as string)
-            const project = (await getDoc(projectDoc)).data() as VrProjectType
             // If there's no project, go back to VR browser page
-            if(project){
-                if(project.scenes.length > 0){
-                    if(project.type === 'depth'){
-                        if(project.globalSettings.loading.autoLoad){
-                            // Load all texture to each view
-                            const newProjectScenesPromises = project.scenes.map(async(scene:any)=>{
-                                const viewList = scene.viewList.map(async(view:ViewListType)=>{
-                                    const urlToLoad = isDesktop? view.imageUrl6000 : view.imageUrl4000
-                                    const texture = textureLoader.load(urlToLoad)
-                                    texture.magFilter = THREE.LinearFilter
-                                    texture.minFilter = THREE.LinearFilter
-        
-                                    const depth = await decode16BitPng(view.depthUrl)
-                                    
-                                    return {...view,
-                                        texture:texture,
-                                        depthMacroTexture: depth.macroTexture,
-                                        depthMicroTexture: depth.microTexture
-                                    }
-                                })
-                                return {...scene,
-                                    viewList:await Promise.all(viewList)
-                                }
-                            })
-                            const newProjectScenes = await Promise.all(newProjectScenesPromises)
-                            const allLoadedScenes:SceneType[] = newProjectScenes.map(s=>{
-                                return s.viewList
-                            })
+            const project = {...selectedProject}
+            if(project.type === 'static'){
+                const newScenes = project.scenes.map((scene)=>{
+                    const viewList = scene.viewList.map((view:ViewListType)=>{
+                        // const urlToLoad = view.imageUrl
+                        const urlToLoad = `${view.imageUrl}/project/${scene.sceneName}/${view.viewName}.jpg`
+                        console.log(urlToLoad)
+                        const texture = textureLoader.load(urlToLoad)
+                        texture.magFilter = THREE.LinearFilter
+                        texture.minFilter = THREE.LinearFilter
 
-                            const allLoadedViews:any = _.flatten(allLoadedScenes)
-                            setLoadedViews(allLoadedViews)
-
-                            project.scenes = newProjectScenes
+                        return {...view,
+                            texture:texture,
                         }
-                        setSelectedProject(project)
+                        
+                    })
+                    return {...scene,
+                        viewList:viewList
                     }
-                    if(project.type === 'dynamic'){
-                        const newScenes = project.scenes.map((scene:any)=>{
-                            const viewList = scene.viewList.map((view:ViewListType)=>{
-                                const urlToLoad = isDesktop? view.imageUrl6000 : view.imageUrl4000
-                                const texture = textureLoader.load(urlToLoad)
-                                texture.magFilter = THREE.LinearFilter
-                                texture.minFilter = THREE.LinearFilter
-    
-                                return {...view,
-                                    texture:texture,
-                                }
-                                
-                            })
-                            return {...scene,
-                                viewList:viewList
-                            }
-                        })
-                        project.scenes = newScenes
-                        setSelectedProject(project)  
-                    }
-                    if(project.type === 'static'){
-                        const newScenes = project.scenes.map((scene:any)=>{
-                            const viewList = scene.viewList.map((view:ViewListType)=>{
-                                const urlToLoad = view.imageUrl
-                                const texture = textureLoader.load(urlToLoad)
-                                texture.magFilter = THREE.LinearFilter
-                                texture.minFilter = THREE.LinearFilter
-    
-                                return {...view,
-                                    texture:texture,
-                                }
-                                
-                            })
-                            return {...scene,
-                                viewList:viewList
-                            }
-                        })
-                        project.scenes = newScenes
-                        setSelectedProject(project)  
-                    }
-                } 
-                setSelectedProject(project)
+                })
+                project.scenes = newScenes
+                setSelectedProject(project)  
             }
-            else{
-                router.push('/vrProjects/allProjects')
-            }
+            setSelectedProject(project)
         }
         init()
     },[projectId])
@@ -224,12 +140,6 @@ const VrViewer = () => {
                     <LoadingManager/>
                     {selectedProject.type === 'static'?
                         <VrViewerStatic/>
-                    :null}
-                    {selectedProject.type === 'dynamic'?
-                        <VrViewerDynamic/>
-                    :null}
-                    {selectedProject.type === 'depth'?
-                        <VrViewerDepth/>
                     :null}
                 </>
             :null}

@@ -2,8 +2,8 @@ import { useContext } from "react";
 import { IoMdClose } from "react-icons/io";
 import { InfoPinpointContainerContext } from "../../../../../..";
 import { ImageInfoContext } from "..";
-import { VrViewerStaticContext } from "@/components/homepage/bodyContainer/vrViewer/vrViewerStatic";
-import { VrViewerContext } from "@/components/homepage/bodyContainer/vrViewer";
+import { VrViewerStaticContext } from "@/components/vrViewer/vrViewerStatic";
+import { VrViewerContext } from "@/components/vrViewer";
 
 const Delete = () => {
     const {setSelectedProject,  selectedProject, selectedScene} = useContext(VrViewerContext)

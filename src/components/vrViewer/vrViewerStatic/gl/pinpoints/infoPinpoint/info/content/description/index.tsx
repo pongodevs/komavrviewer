@@ -3,12 +3,11 @@ import { VrViewerStaticContext } from "../../../../../.."
 import { InfoPinpointContext } from "../../.."
 import * as THREE from 'three'
 import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry';
-import { VrViewerContext } from "@/components/homepage/bodyContainer/vrViewer";
 import _ from "lodash";
 import { ContentContext } from "..";
+import { VrViewerContext } from "@/components/vrViewer";
 
 const Description = () => {
-    const {selectedProject} = useContext(VrViewerContext)
     const {fontRegular} = useContext(VrViewerStaticContext)
     const {textRef, 
         pinpoint, 

@@ -1,10 +1,6 @@
 import { useRouter } from "next/router"
 import { useEffect, useContext, useState } from "react"
-import {doc, getDoc} from 'firebase/firestore'
-
 import * as THREE from 'three'
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
-import useFirebase from '@/hooks/firebase/index';
 import { SceneType, ViewListType, VrProjectType, viewListObject } from "@/types/vrProjectType"
 import { FontLoader } from 'three/examples/jsm/loaders/FontLoader';
 import { VrViewerStaticContext } from "../.."
@@ -19,7 +15,6 @@ const InitProject = () => {
     THREE.Cache.enabled = true;
     const {gl, scene, camera} = useThree()
     const router = useRouter()
-    const {db} = useFirebase()
     const {mainMeshRef,setCurrentView, setNextView, setMainGeometry, setSelectedScene,
         setSelectedMap, setSelectedPinpoint, isGameStart,
         setFontBold, setFontRegular, setFontLight,

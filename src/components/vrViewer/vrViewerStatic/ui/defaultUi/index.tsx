@@ -1,12 +1,11 @@
 import { isMobile } from "react-device-detect";
 import UiHiddenInstruction from "./uiHiddenInstruction";
 import { useContext } from "react";
-import { VrViewerStaticContext } from "@/components/homepage/bodyContainer/vrViewer/vrViewerStatic";
-import { VrViewerContext } from "@/components/homepage/bodyContainer/vrViewer";
 import ProjectInfo from "./projectInfo";
 import HeaderUi from "./headerUi";
-import RightPanelUi from "./rightPanelUi";
 import FooterUi from "./footerUi";
+import { VrViewerStaticContext } from "../..";
+import { VrViewerContext } from "@/components/vrViewer";
 
 const DefaultUi = () => {
     const {selectedProject} = useContext(VrViewerContext)
@@ -23,7 +22,6 @@ const DefaultUi = () => {
                 <>
                     <ProjectInfo/>
                     <HeaderUi/>
-                    <RightPanelUi/>
                     <FooterUi/>
                 </>
             :null}

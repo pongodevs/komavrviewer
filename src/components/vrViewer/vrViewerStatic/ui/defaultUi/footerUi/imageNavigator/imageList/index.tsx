@@ -6,9 +6,8 @@ import {TailSpin} from "react-loading-icons";
 import {createContext} from 'react';
 import Callout from "./callout";
 import { useRouter } from "next/router";
-import Delete from "./delete";
-import { VrViewerContext } from "@/components/homepage/bodyContainer/vrViewer";
 import { VrViewerStaticContext } from "../../../../..";
+import { VrViewerContext } from "@/components/vrViewer";
 
 
 type ImageListContextType = {
@@ -136,10 +135,6 @@ const ImageList = ({view,index}:{view:ViewListType,index:number}) => {
                         position:`relative`
                     }}
                 >
-                    {/* Delete UI */}
-                    {isEditorMode?
-                        <Delete/>
-                    :null}
                     {/* Image container */}
                     <div
                         ref={imageDivRef}

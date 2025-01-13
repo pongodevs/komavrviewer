@@ -1,7 +1,7 @@
+import { VrViewerContext } from "@/components/vrViewer";
+import { VrViewerStaticContext } from "@/components/vrViewer/vrViewerStatic";
 import { PinpointType } from "@/types/vrProjectType";
 import { useContext, useEffect, useRef, useState } from "react";
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
-import { VrViewerContext } from "@/components/homepage/bodyContainer/vrViewer";
 import { isDesktop } from "react-device-detect";
 
 

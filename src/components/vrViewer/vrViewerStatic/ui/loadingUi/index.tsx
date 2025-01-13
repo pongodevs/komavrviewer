@@ -2,8 +2,8 @@ import { useContext } from "react";
 
 import EnterVrButton from "./enterVrButton";
 import ProgressBar from "./progressBar";
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
-import { VrViewerContext } from '@/components/homepage/bodyContainer/vrViewer';
+import { VrViewerStaticContext } from "../..";
+import { VrViewerContext } from "@/components/vrViewer";
 
 const LoadingUi = () => {
     const {

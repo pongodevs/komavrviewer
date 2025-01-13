@@ -1,11 +1,10 @@
 import { ImageInfoType } from "@/types/vrProjectType";
 import { createContext, useContext } from "react";
-import { TailSpin } from "react-loading-icons";
 import { InfoPinpointContainerContext } from "../../../../..";
 import Delete from "./delete";
-import { VrViewerStaticContext } from "@/components/homepage/bodyContainer/vrViewer/vrViewerStatic";
 import Image from "./image";
 import Loading from "./loading";
+import { VrViewerStaticContext } from "@/components/vrViewer/vrViewerStatic";
 
 type ImageInfoContextType = {
     image:ImageInfoType

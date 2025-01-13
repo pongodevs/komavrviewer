@@ -3,7 +3,6 @@ import { VrViewerStaticContext } from "../../../../../.."
 import { InfoPinpointContext } from "../../.."
 import * as THREE from 'three'
 import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry';
-import { VrViewerContext } from "@/components/homepage/bodyContainer/vrViewer";
 
 const Header = () => {
     const {fontBold} = useContext(VrViewerStaticContext)

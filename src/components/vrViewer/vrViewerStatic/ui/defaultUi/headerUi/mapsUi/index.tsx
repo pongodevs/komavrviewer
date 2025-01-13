@@ -1,11 +1,6 @@
 import { createContext, useContext, useRef, Dispatch, SetStateAction, useEffect } from 'react';
 import _ from 'lodash';
-import { toast } from 'react-toastify';
-import useFirebase from '@/hooks/firebase';
-import { getDownloadURL, ref, uploadBytesResumable } from 'firebase/storage';
 import { useRouter } from 'next/router';
-import { v4 } from 'uuid';
-import axios from 'axios';
 import Pinpoints from './pinpoints';
 import PlayerUi from './playerUi';
 import Toggle from './toggle';
@@ -13,9 +8,8 @@ import {useState} from 'react';
 import MapsSelection from './mapsSelection';
 import { BsPlusCircleDotted } from 'react-icons/bs';
 import UseMap from './useMap';
-import DonutProgress from '@/components/common/donutProgress';
-import { VrViewerContext } from '@/components/homepage/bodyContainer/vrViewer';
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
+import { VrViewerStaticContext } from '@/components/vrViewer/vrViewerStatic';
+import { VrViewerContext } from '@/components/vrViewer';
 
 type MapsUiContextType = {
     isShowMap:boolean, 
@@ -24,18 +18,13 @@ type MapsUiContextType = {
 export const MapsUiContext = createContext<MapsUiContextType>({} as MapsUiContextType)
 const Maps = () => {
     const router = useRouter()
-    const {projectId} = router.query
     const {selectedMap, setSelectedMap, isEditorMode, 
         mapContainerRef, selectedPinpoint, borderRadius
     } = useContext(VrViewerStaticContext)
     
     const {setSelectedProject,selectedProject} = useContext(VrViewerContext)
-    const {storage} = useFirebase()
-    const progressBarRef = useRef<HTMLDivElement>(null)
     const [isShowMap, setIsShowMap] = useState(false)
     
-    const [progress, setProgress] = useState(0)
-    const [isMouseEnter, setIsMouseEnter] = useState(false)
     const [showPlayerUi, setShowPlayerUi] = useState(false)
 
     const mapRef = useRef<HTMLDivElement>(null)
@@ -88,125 +77,7 @@ const Maps = () => {
                     overflow:isShowMap?`initial`:`hidden`,
                     transition:`all 0.2s ease-out`,
                 }}
-                onDragEnter={(e)=>{
-                    e.preventDefault()
-                    e.stopPropagation()
-                    setIsMouseEnter(true)
-                }}
-                onDragOver={(e)=>{
-                    e.preventDefault()
-                    e.stopPropagation()
-                }}
-                onDragLeave={(e)=>{
-                    e.preventDefault()
-                    e.stopPropagation()
-                    setIsMouseEnter(false)
-                }}
-                onDrop={(e:any)=>{
-                    e.preventDefault()
-                    e.stopPropagation()
-                    setIsMouseEnter(false)
-                    if(selectedMap._id === '') return toast.error(`There's no active map.`)
-
-                    const id = v4()
-                    const files = e.dataTransfer.files
-                    console.log(files.length)
-                    if(files.length > 1) return toast.error('Only 1 file is accepted')
-                    if(files[0].name.endsWith('.jpg') || files[0].name.endsWith('.png')){
-                        const image = files[0]
-                        const imageName = `${image.name.replace('.jpg','')}-${id}.jpg`
-
-                        const imageRef = ref(storage,`/pongovr/projects/${projectId}/map/${imageName}`)
-                        const uploadTask = uploadBytesResumable(imageRef, image)
-
-                        uploadTask.on('state_changed', 
-                            (snapshot) => {
-                                const progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-                                setProgress(progress)
-                            }, 
-                            (error) => {
-                                // Handle unsuccessful uploads
-                            }, 
-                            async() => {
-                                const imageUrl = await getDownloadURL(uploadTask.snapshot.ref)                            
-                                const {data}= await axios.post(`https://us-central1-pongoprojects-us.cloudfunctions.net/sharp`,{
-                                    type:'compress',
-                                    quality:80,
-                                    format:`png`,
-                                    imageUrl:imageUrl,
-                                    storagePath:`pongovr/projects/${projectId}/map/${imageName}`,
-                                })
-
-                                const finalImagelUrl = await getDownloadURL(ref(storage,`pongovr/projects/${projectId}/map/${imageName}`))
-                                
-                                selectedMap.imageUrl = finalImagelUrl
-                                setSelectedProject(prev=>{return {...prev}})
-                                setProgress(0)
-                                toast.success('Success adding view.')
-                            }
-                        )
-                    }
-                    else{
-                        toast.error('Only jpg file is accepted.')
-                    }
-                    
-
-
-                }}
             >
-                {/* Blue overlay */}
-                <div
-                    className='bg-blue text-white'
-                    style={{
-                        position:`absolute`,
-                        pointerEvents:`none`,
-                        width:`100%`,
-                        height:`100%`,
-                        zIndex:`3`,
-                        opacity:isMouseEnter?`50%`:`0`,
-                        display:`flex`,
-                        justifyContent:`center`,
-                        alignItems:`center`,
-                        fontSize:`2rem`,
-                        fontWeight:`600`,
-                        transition:`all 0.2s`
-                    }}
-                >
-                    Drag and drop here.
-                </div>
-      
-                {/*  */}
-                <div
-                    className='text-white'
-                    style={{
-                        background:progress > 0? `rgba(0,0,0,0.5)`: ``,
-                        position:`absolute`,
-                        pointerEvents:`none`,
-                        width:`100%`,
-                        height:`100%`,
-                        display:`flex`,
-                        justifyContent:`center`,
-                        alignItems:`center`
-                    }}
-                >
-                    {progress > 0?
-                            <DonutProgress
-                                borderWidth='1rem'
-                                progress={progress}
-                                width='15rem'
-                            />
-                        :
-                            selectedMap.imageUrl === ''?
-                                <BsPlusCircleDotted
-                                    size={60}
-                                    style={{
-                                        pointerEvents:`none`
-                                    }}
-                                />  
-                            :null
-                    }
-                </div>
- 
                 {selectedMap.imageUrl !== ''?
                     <img
                         className='no-select'

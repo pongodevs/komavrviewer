@@ -1,7 +1,7 @@
 import { MapType } from "@/types/vrProjectType";
 import {useContext} from 'react';
 import { MapsSelectionContext } from "..";
-import { VrViewerStaticContext } from "@/components/homepage/bodyContainer/vrViewer/vrViewerStatic";
+import { VrViewerStaticContext } from "@/components/vrViewer/vrViewerStatic";
 
 const MapList = ({map}:{map:MapType}) => {
     const {selectedMap, setSelectedMap} = useContext(VrViewerStaticContext)

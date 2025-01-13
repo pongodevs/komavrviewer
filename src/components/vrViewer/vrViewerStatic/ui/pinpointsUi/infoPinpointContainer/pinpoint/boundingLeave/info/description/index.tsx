@@ -1,8 +1,8 @@
 import { useContext, useEffect, useRef } from "react"
 import { InfoPinpointContainerContext } from "../../../.."
-import { VrViewerStaticContext } from "@/components/homepage/bodyContainer/vrViewer/vrViewerStatic"
 import { PinpointsUiContext, isEditObject } from "../../../../.."
-import { VrViewerContext } from "@/components/homepage/bodyContainer/vrViewer"
+import { VrViewerContext } from "@/components/vrViewer"
+import { VrViewerStaticContext } from "@/components/vrViewer/vrViewerStatic"
 
 const Description = () => {
     const {findCustomPinpoint} = useContext(InfoPinpointContainerContext)

@@ -3,11 +3,10 @@ import { PinpointType, ViewListType, VrProjectType, viewListObject } from '@/typ
 import { useRouter } from 'next/router';
 import {createContext} from 'react';
 import _ from 'lodash';
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
 import { InfoPinpointContainerContext } from '..';
 import Pin from './pin';
-import Delete from './delete';
 import BoundingLeave from './boundingLeave';
+import { VrViewerStaticContext } from '@/components/vrViewer/vrViewerStatic';
 
 
 type PinpointContextType = {
@@ -84,9 +83,6 @@ const Pinpoint = () => {
             >
                 <BoundingLeave/>
                 <Pin/>               
-                {isEditorMode?
-                    <Delete/>
-                :null}
             </div>
         </PinpointContext.Provider>
     );

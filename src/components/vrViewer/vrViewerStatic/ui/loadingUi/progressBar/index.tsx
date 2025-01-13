@@ -1,5 +1,5 @@
+import { VrViewerContext } from "@/components/vrViewer";
 import { useContext, useRef } from "react";
-import { VrViewerContext } from '@/components/homepage/bodyContainer/vrViewer';
 
 
 const ProgressBar = () => {

@@ -1,6 +1,6 @@
 import { useContext, useEffect, useRef, useState } from "react";
 import ScenePicker from "./scenePicker";
-import { VrViewerContext } from '@/components/homepage/bodyContainer/vrViewer';
+import { VrViewerContext } from "@/components/vrViewer";
 
 const ChangeScene = () => {
     const {selectedProject} = useContext(VrViewerContext)

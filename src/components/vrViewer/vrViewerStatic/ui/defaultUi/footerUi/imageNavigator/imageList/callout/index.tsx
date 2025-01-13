@@ -2,8 +2,8 @@ import { useContext, useEffect } from "react";
 import { ImageListContext } from "..";
 import {useState, useRef} from 'react';
 import { ImageNavigatorContext } from "../..";
-import { VrViewerContext } from "@/components/homepage/bodyContainer/vrViewer";
-import { VrViewerStaticContext } from "@/components/homepage/bodyContainer/vrViewer/vrViewerStatic";
+import { VrViewerStaticContext } from "@/components/vrViewer/vrViewerStatic";
+import { VrViewerContext } from "@/components/vrViewer";
 
 const Callout = () => {
     const calloutColor = `rgba(0,0,0,0.7)`

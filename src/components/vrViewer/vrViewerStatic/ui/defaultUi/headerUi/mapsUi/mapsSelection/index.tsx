@@ -3,9 +3,8 @@ import { useContext, Dispatch, SetStateAction } from 'react';
 import { IoMdArrowDropdown, IoMdArrowDropup } from 'react-icons/io';
 import {useState, createContext } from 'react';
 import MapList from './mapList';
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
-import { VrViewerContext } from '@/components/homepage/bodyContainer/vrViewer';
-
+import { VrViewerStaticContext } from '@/components/vrViewer/vrViewerStatic';
+import { VrViewerContext } from '@/components/vrViewer';
 
 type MapsSelectionContextType = {
     isShowList:boolean, 

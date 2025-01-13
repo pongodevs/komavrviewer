@@ -1,8 +1,8 @@
+import { VrViewerContext } from "@/components/vrViewer";
+import { VrViewerStaticContext } from "@/components/vrViewer/vrViewerStatic";
 import { PinpointType } from "@/types/vrProjectType";
 import { useContext, useEffect, useRef, useState } from "react";
 import { IoIosClose, IoIosPin } from "react-icons/io";
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
-import { VrViewerContext } from "@/components/homepage/bodyContainer/vrViewer";
 
 
 const Pinpoint = ({pin}:{pin:PinpointType}) => {

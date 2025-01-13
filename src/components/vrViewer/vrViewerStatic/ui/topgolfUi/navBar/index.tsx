@@ -1,12 +1,11 @@
 import { useContext } from "react";
-import { VrViewerContext } from '@/components/homepage/bodyContainer/vrViewer';
 import NavList from "./navList";
 import HideIcon from "./hideIcon";
 import { isDesktop } from "react-device-detect";
+import { VrViewerContext } from "@/components/vrViewer";
 
 const NavBar = ({hideIcon,backgroundColor}:{hideIcon?:boolean, backgroundColor?:string}) => {
     const {selectedProject} = useContext(VrViewerContext)
-    
     return (  
         <div
             className="text-white"

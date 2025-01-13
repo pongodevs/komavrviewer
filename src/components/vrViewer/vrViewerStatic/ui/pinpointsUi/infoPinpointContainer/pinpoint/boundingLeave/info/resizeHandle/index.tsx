@@ -1,8 +1,7 @@
-import { VrViewerStaticContext } from "@/components/homepage/bodyContainer/vrViewer/vrViewerStatic";
 import { useContext } from "react";
 import { InfoPinpointContainerContext } from "../../../..";
 import { PinpointsUiContext } from "../../../../..";
-import { pinpointObject } from "@/types/vrProjectType";
+import { VrViewerStaticContext } from "@/components/vrViewer/vrViewerStatic";
 
 const ResizeHandle = () => {
     const {setEnableOrbitControl, isEditorMode} = useContext(VrViewerStaticContext)

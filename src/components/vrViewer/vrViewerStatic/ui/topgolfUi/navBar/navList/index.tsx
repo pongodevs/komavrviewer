@@ -1,7 +1,7 @@
 import { MapType } from "@/types/vrProjectType";
 import { useContext } from "react";
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
 import { TopgolfUiContext } from "../..";
+import { VrViewerStaticContext } from "@/components/vrViewer/vrViewerStatic";
 
 const NavList = ({map}:{map:MapType}) => {
     const {setSelectedMap, selectedMap, selectedScene, teleport, setSelectedPinpoint} = useContext(VrViewerStaticContext)

@@ -1,8 +1,8 @@
 import { useContext, useRef } from "react";
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
 import Pinpoints from "./pinpoints";
 import PlayerUi from "./playerUi";
 import { TopgolfUiContext } from "..";
+import { VrViewerStaticContext } from "../../..";
 
 const MapImage = ({backgroundColor}:{backgroundColor?:string}) => {
     const {selectedMap} = useContext(VrViewerStaticContext)
@@ -36,7 +36,7 @@ const MapImage = ({backgroundColor}:{backgroundColor?:string}) => {
                     <Pinpoints/>
                     <PlayerUi/>
                     <img
-                        src={selectedMap.imageUrl}
+                        src={`./project/maps/${selectedMap.mapName}.png`}
                         style={{
                             width:`100%`,
                             height:`100%`,

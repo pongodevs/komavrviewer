@@ -1,6 +1,5 @@
 
 import {useContext, useEffect, useState, Dispatch, SetStateAction} from 'react';
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
 import {createContext} from 'react';
 import { VrViewerContext } from '../../..';
 import _ from 'lodash';
@@ -8,6 +7,7 @@ import { PinpointType, pinpointObject } from '@/types/vrProjectType';
 import ViewPinpointContainer from './viewPinpointContainer';
 import InfoPinpointContainer from './infoPinpointContainer';
 import * as THREE from 'three'
+import { VrViewerStaticContext } from '../..';
 
 type Vec2 = {
     x:number,

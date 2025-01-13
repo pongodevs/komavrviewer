@@ -7,8 +7,8 @@ import FullscreenUi from "./fullscreenUi";
 import DeviceOrientation from "./deviceOrientation";
 import { isMobile } from "react-device-detect";
 import ShowUi from "./showUi";
-import { VrViewerContext } from "@/components/homepage/bodyContainer/vrViewer";
 import { VrViewerStaticContext } from "../../../..";
+import { VrViewerContext } from "@/components/vrViewer";
 
 const UtilsUi = () => {
     const {selectedProject} = useContext(VrViewerContext)

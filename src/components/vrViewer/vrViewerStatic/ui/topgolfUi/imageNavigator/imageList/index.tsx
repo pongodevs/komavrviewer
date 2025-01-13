@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { ViewListType } from "@/types/vrProjectType";
-import { VrViewerStaticContext } from "@/components/homepage/bodyContainer/vrViewer/vrViewerStatic";
 import { isDesktop } from "react-device-detect";
+import { VrViewerStaticContext } from "@/components/vrViewer/vrViewerStatic";
 
 const ImageList = ({view}:{view:ViewListType}) => {
     const {currentView, setCurrentView, teleport, selectedMap, setSelectedPinpoint, player} = useContext(VrViewerStaticContext)

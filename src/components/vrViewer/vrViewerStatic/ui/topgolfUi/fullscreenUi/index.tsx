@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { AiOutlineFullscreen, AiOutlineFullscreenExit } from "react-icons/ai";
-import { VrViewerStaticContext } from "@/components/homepage/bodyContainer/vrViewer/vrViewerStatic";
+import { VrViewerStaticContext } from "../../..";
 
 const FullscreenUi = () => {
     const {masterContainerRef} = useContext(VrViewerStaticContext)
@@ -42,7 +42,10 @@ const FullscreenUi = () => {
                 }
             }}
         >
-            {!(document as any).fullscreenElement?
+            <AiOutlineFullscreen
+                size={40}
+            />    
+            {/* {!(document as any).fullscreenElement?
                 <AiOutlineFullscreen
                     size={40}
                 />    
@@ -50,7 +53,7 @@ const FullscreenUi = () => {
                 <AiOutlineFullscreenExit
                     size={40}
                 />
-            }
+            } */}
         </div>
     );
 }

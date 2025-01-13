@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Hi Jeffrey,
 
-## Getting Started
+This is the standalone VR Viewer for the Topgolf project.
 
-First, run the development server:
+I developed it using Next.js (version 12.3.4) with all dependencies installed on Node.js (version 18.17.1).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Key Files:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. public/project: This folder contains all the images related to the project.
+2. src/project.json: This file includes all data related to the VR project.
+   These files are generated using macros, so for future projects, feel free to ask me to generate them.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To Run the Project Locally:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Run npm install to install dependencies.
+2. Start the development server with npm run dev.
+3. Access the application at http://localhost:3000.
 
-## Learn More
+Deployment:
 
-To learn more about Next.js, take a look at the following resources:
+To deploy online, use any PaaS that supports networks in China.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Let me know if you need further adjustments!

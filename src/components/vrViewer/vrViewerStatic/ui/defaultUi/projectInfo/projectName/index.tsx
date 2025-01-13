@@ -1,6 +1,6 @@
 import {useContext, useState, useRef} from 'react';
 import { VrViewerStaticContext } from '../../../..';
-import { VrViewerContext } from '@/components/homepage/bodyContainer/vrViewer';
+import { VrViewerContext } from '@/components/vrViewer';
 
 const ProjectName = () => {
     const {showInfo, isDev} = useContext(VrViewerStaticContext)

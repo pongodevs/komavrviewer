@@ -5,19 +5,11 @@ import { useRouter } from 'next/router';
 import LabelName from './labelName';
 import {createContext} from 'react';
 import {useState} from 'react';
-import { toast } from 'react-toastify';
-import { v4 } from 'uuid';
-import { getDownloadURL, ref, uploadBytesResumable } from 'firebase/storage';
-import useFirebase from '@/hooks/firebase';
 import _ from 'lodash';
-import axios from 'axios';
-import DonutProgress from '@/components/common/donutProgress';
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
-import { doc, getDoc } from 'firebase/firestore';
-import { VrViewerContext } from '@/components/homepage/bodyContainer/vrViewer';
-import Delete from './delete';
 import { PinpointsUiContext } from '../..';
 import { ViewPinpointContainerContext } from '..';
+import { VrViewerStaticContext } from '@/components/vrViewer/vrViewerStatic';
+import { VrViewerContext } from '@/components/vrViewer';
 
 
 type PinpointContextType = {
@@ -30,7 +22,6 @@ const Pinpoint = () => {
     const {isMouseDown, setIsMouseEnter, isDragged, setIsDragged, setIsEdit, setIsMouseDown} = useContext(PinpointsUiContext)
     const router = useRouter()
     const {projectId} = router.query
-    const {db, storage} = useFirebase()
     const {
         currentView, teleport, selectedScene, isEditorMode, setCurrentView, 
         draggedView,setDraggedView,
@@ -99,100 +90,8 @@ const Pinpoint = () => {
                     opacity:`0%`,
                     position:`absolute`,
                 }}
-                onDragEnter={(e)=>{
-                    if(isEditorMode){
-                        e.preventDefault()
-                        e.stopPropagation()
-                        setIsMouseEnter(true)
-                    }
-                }}
-                onDragOver={(e)=>{
-                    if(isEditorMode){
-                        e.preventDefault()
-                        e.stopPropagation()
-                    }
-                }}
-                onDragLeave={(e)=>{
-                    if(isEditorMode){
-                        e.preventDefault()
-                        e.stopPropagation()
-                        setIsMouseEnter(false)
-                    }
-                }}
-                onDrop={(e:any)=>{
-                    if(isEditorMode){
-                        e.preventDefault()
-                        e.stopPropagation()
-                        setIsMouseEnter(false)
-                        
-                        const files = e.dataTransfer.files
-                        if(files.length > 1) return toast.error('Only 1 file is accepted.')
-                        const jpgFile = files[0]
-                        const ext = jpgFile.name.split('.')[jpgFile.name.split('.').length -1]
-                        const jpgName = jpgFile.name.split('.').slice(0,jpgFile.name.split('.').length -1).join('.')
-
-                        // Create div progress bar
-                        const id = v4()
-
-                        // Upload image to firebase
-                        const imageRef = ref(storage,`/pongovr/projects/${projectId}/thumbnail/${jpgName}-${id}.${ext}`)
-                        const uploadTask = uploadBytesResumable(imageRef, jpgFile)
-
-                        uploadTask.on('state_changed', 
-                            (snapshot) => {
-                                const progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;  
-                                setProgress(progress)
-                            }, 
-                            (error) => {
-                                // Handle unsuccessful uploads
-                            }, 
-                            async() => {
-                                const imageUrl = await getDownloadURL(uploadTask.snapshot.ref)
-
-                                const imageName = `${jpgName}-${id}.${ext}`
-                                const url = `https://us-central1-pongoprojects-us.cloudfunctions.net/sharp`
-                                const {data}= await axios.post(url,{
-                                    type:'resize',
-                                    imageUrl:imageUrl,
-                                    storagePath:`pongovr/projects/${projectId}/thumbnail/${imageName}`,
-                                    width:400,
-                                    height:400,
-                                    method:`cover`,
-                                    quality:50,
-                                })
-
-                                const finalThumbnailUrl = await getDownloadURL(ref(storage,`pongovr/projects/${projectId}/thumbnail/${imageName}`))
-                                
-                                pin.thumbnailUrl = finalThumbnailUrl
-                                selectedProject.scenes = selectedProject.scenes.map(scene=>{
-                                    return {...scene,
-                                        viewList:scene.viewList.map(v=>{
-                                            return {...v,
-                                                pinpoints:v.pinpoints.map(p=>{
-                                                    if(p._id === pin._id){
-                                                        return {...p,
-                                                            thumbnailUrl: finalThumbnailUrl
-                                                        }
-                                                    }
-                                                    else{
-                                                        return {...p}
-                                                    }
-                                                })
-                                            }
-                                        })
-                                    }
-                                })
-                                setProgress(0)
-                                setSelectedProject(prev=>{return {...prev}})
-                                toast.success('Success adding thumbnail.')
-                            }
-                        )
-
-                    }
-                }}
             >
-                {/* Delete Button */}
-                <Delete/>
+
                 {/* Pin */}
                 <div
                     className='no-select'
@@ -348,21 +247,6 @@ const Pinpoint = () => {
                             // src={pin.thumbnailUrl}
                             src={selectedScene.viewList.find(view=>{return view._id === pin.toViewId})?.thumbnailUrl || pin.thumbnailUrl}
                         />
-                    :null}
-                    {/* Upload Thumbnail */}
-                    {progress > 0 && findCustomPinpoint?.showThumbnail?
-                        <div
-                            style={{
-                                position:`absolute`,
-                                transform:`translateY(calc(${Number(findCustomPinpoint?.sizePercentage)/100} * -${findCustomPinpoint?.thumbnailYPosition}rem))`,
-                            }}
-                        >
-                            <DonutProgress
-                                progress={progress}
-                                borderWidth='0.4rem'
-                                width='5rem'
-                            />
-                        </div>
                     :null}
                 </div>
                 <LabelName/>

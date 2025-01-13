@@ -1,5 +1,5 @@
+import { VrViewerStaticContext } from "@/components/vrViewer/vrViewerStatic";
 import { useContext, useEffect, useRef, useState } from "react";
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
 
 const ScenePicker = ({scene}:{scene:any}) => {
     const {

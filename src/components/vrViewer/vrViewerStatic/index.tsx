@@ -9,9 +9,7 @@ import { VrViewerContext } from "..";
 import Ui from "./ui";
 import WindowEvent from "./windowEvent";
 import Gl from "./gl";
-import { doc, getDoc } from 'firebase/firestore';
 import { useRouter } from 'next/router';
-import useFirebase from '@/hooks/firebase';
 import useAnimation from '@/hooks/animation';
 import { ZoomStateType } from '@/types/zoomState';
 
@@ -33,8 +31,6 @@ type VrViewerStaticContextType = {
     borderRadius:string,
     showInfo:boolean, 
     setShowInfo:Dispatch<SetStateAction<boolean>>,
-    notFoundTexture:any, 
-    setNotFoundTexture:Dispatch<SetStateAction<any>>,
     enableOrbitControl:boolean, 
     setEnableOrbitControl:Dispatch<SetStateAction<boolean>>,
     masterContainerRef:RefObject<HTMLDivElement>,
@@ -118,19 +114,11 @@ type VrViewerStaticContextType = {
 export const VrViewerStaticContext = createContext<VrViewerStaticContextType>({} as VrViewerStaticContextType)
 
 const VrViewerStatic = () => {
-    const router = useRouter()
-    const {db} = useFirebase()
-
-    useEffect(()=>{
-        console.log('STATIC PROJECT')
-    },[])
-
     // Master variable
 
     const radius = 200
     // Not found texture
     const textureloader = new THREE.TextureLoader()
-    const texture360NotFound = textureloader.load('https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fimages%2Fnot-found-360.jpg?alt=media&token=cab11e5c-e912-48fe-b8c7-7d6f22f04f33&_gl=1*p5nyx3*_ga*MjEzMjg2OTg3Ni4xNjkyNjAxNjMy*_ga_CW55HF8NVT*MTY5ODA1NTYyMi4yOS4xLjE2OTgwNTYwOTMuNDAuMC4w')
 
     //Manager
 
@@ -210,7 +198,7 @@ const VrViewerStatic = () => {
     const [pointer, setPointer] = useState(pointerObject)
 
     //Mesh
-    const mainMeshRef = useRef<any>()
+    const mainMeshRef = useRef<any>(null as any)
 
     // Game state
     const [isGameStart, setIsGameStart] = useState(false)
@@ -220,7 +208,7 @@ const VrViewerStatic = () => {
     
     // Ambient sound
     const [isVolumeOn, setIsVolumeOn] = useState(false)
-    const [audio, setAudio] = useState(new Audio())
+    const [audio, setAudio] = useState(null as any)
 
     // Upload status
     const [isUploading, setIsUploading] = useState(false)
@@ -240,14 +228,13 @@ const VrViewerStatic = () => {
     const [gazedPinId, setGazedPinId] = useState("")
     const gazedGroupRef = useRef(null as any)
 
-    const masterContainerRef = useRef<HTMLDivElement>(null)
+    const masterContainerRef = useRef<HTMLDivElement>(null as any)
 
     // Editor mode
     const [isEditorMode, setIsEditorMode] = useState(false)
 
     // Maps related
     const mapContainerRef = useRef<HTMLDivElement>(null)
-    const [notFoundTexture, setNotFoundTexture] = useState(new THREE.TextureLoader().load('https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fimages%2Fnot-found-360.jpg?alt=media&token=cab11e5c-e912-48fe-b8c7-7d6f22f04f33'))
 
     // Show Info
     const [showInfo, setShowInfo] = useState(false)
@@ -257,7 +244,7 @@ const VrViewerStatic = () => {
     const [isFullscreen, setIsFullscreen] = useState(false)
 
     // Devs
-    const isDev = (loginUser.email === selectedProject.email && loginUser.email !== '')|| _.includes(['storage.koma@gmail.com','pongo.devs@gmail.com','remitriadi@gmail.com'],loginUser.email)
+    const isDev = false
     
     // Ref
     const projectInfoRef = useRef<HTMLDivElement>(null as any)
@@ -290,7 +277,7 @@ const VrViewerStatic = () => {
                         sfxAudio.play()
                         // Set newView
                         player.isViewTransition = true
-                        mainMeshRef.current.material.uniforms.nextTexture.value = view.texture || texture360NotFound
+                        mainMeshRef.current.material.uniforms.nextTexture.value = view.texture
                         setNextView(view)
                     }),
                     onUpdate:(()=>{
@@ -298,7 +285,7 @@ const VrViewerStatic = () => {
                     }),
                     onComplete:(()=>{
                         player.isViewTransition = false
-                        mainMeshRef.current.material.uniforms.currentTexture.value = view.texture || texture360NotFound
+                        mainMeshRef.current.material.uniforms.currentTexture.value = view.texture
                         mainMeshRef.current.material.uniforms.mixColor.value = 0
                         setCurrentView(view)
                     }),
@@ -316,7 +303,9 @@ const VrViewerStatic = () => {
     },[selectedProject.globalSettings.music.url])
 
     useEffect(()=>{
-        audio.volume = selectedProject.globalSettings.music.volume/100
+        if(audio){
+            audio.volume = selectedProject.globalSettings.music.volume/100
+        }
     },[selectedProject.globalSettings.music.volume])
 
     const borderRadius = `4px`
@@ -438,87 +427,24 @@ const VrViewerStatic = () => {
     
     const teleportToPin = async(pinpoint:PinpointType)=>{
         // Teleport
+        const findView = selectedScene.viewList.find(v=>{return v._id === pinpoint.toViewId}) as ViewListType
+        if(findView){
+            // Change map
+            const findMap = selectedProject.maps.find(map=>{return map._id === findView.mapId})
+            if(findMap){
+                setSelectedMap(findMap)
+                // Change pin
+                const findPin =findMap.pinpoints.find(pin=>{return pin.toViewId === findView._id})
+                console.log(findView._id)
+                console.log(findMap.pinpoints)
+                console.log(findPin)
+                if(findPin){
+                    setSelectedPinpoint(findPin)
+                }
+            }
 
-        // If there's to other project
-        if(pinpoint.redirectUrl !== ''){
-            const redirectArray = pinpoint.redirectUrl.split('/')
-            const getNextProjectId = ()=>{
-                if(_.includes(pinpoint.redirectUrl,'?startIndex=')){
-                    if(pinpoint.redirectUrl.endsWith('/')){
-                        return redirectArray[redirectArray.length -3]
-                    }
-                    else{
-                        return redirectArray[redirectArray.length -2]
-                    }
-                }
-                else{
-                    if(pinpoint.redirectUrl.endsWith('/')){
-                        return redirectArray[redirectArray.length -2]
-                    }
-                    else{
-                        return redirectArray[redirectArray.length -1]
-                    }
-                }
-            }
-            
-            const getStartIndex = ()=>{
-                if(_.includes(pinpoint.redirectUrl,'?startIndex=')){
-                    if(pinpoint.redirectUrl.endsWith('/')){
-                        return Number(pinpoint.redirectUrl[pinpoint.redirectUrl.length - 2])
-                    }
-                    else{
-                        return Number(pinpoint.redirectUrl[pinpoint.redirectUrl.length - 1])
-                    }
-                }
-                else{
-                    return 0
-                }
-            }
-            const nextProjectId = getNextProjectId()
-            const startIndex = getStartIndex()
-            const nextProjectDoc = doc(db,'vrProjects',nextProjectId)
-            
-            const nextProject = (await getDoc(nextProjectDoc)).data() as VrProjectType
-            if(nextProject){
-                const nextView = nextProject.scenes[0].viewList[startIndex]
-
-                if(nextView){
-                    teleport(nextView)
-                }
-                
-                // Jump to other project
-                const redirectUrl = `${location.origin}/vrViewer/${nextProjectId}/?startIndex=${startIndex}`
-
-                setTimeout(()=>{
-                    router.push(redirectUrl)
-                },(selectedProject.globalSettings.transition.duration * 1000) + 500)
-            }
-            else{
-                // Jump to external
-                open(pinpoint.redirectUrl, '_blank');
-            }
-        }
-        // If to current project
-        else{
-            const findView = selectedScene.viewList.find(v=>{return v._id === pinpoint.toViewId}) as ViewListType
-            if(findView){
-                // Change map
-                const findMap = selectedProject.maps.find(map=>{return map._id === findView.mapId})
-                if(findMap){
-                    setSelectedMap(findMap)
-                    // Change pin
-                    const findPin =findMap.pinpoints.find(pin=>{return pin.toViewId === findView._id})
-                    console.log(findView._id)
-                    console.log(findMap.pinpoints)
-                    console.log(findPin)
-                    if(findPin){
-                        setSelectedPinpoint(findPin)
-                    }
-                }
-
-                // Teleport
-                teleport(findView, selectedProject.globalSettings.transition.style, pinpoint)
-            }
+            // Teleport
+            teleport(findView, selectedProject.globalSettings.transition.style, pinpoint)
         }
     }
 
@@ -691,7 +617,6 @@ const VrViewerStatic = () => {
                 showInfo, setShowInfo,
                 selectedCustomPinpoint, setSelectedCustomPinpoint,
                 selectedPinpoint, setSelectedPinpoint,
-                notFoundTexture, setNotFoundTexture,
                 mapContainerRef,
                 selectedMap, setSelectedMap,
                 enableOrbitControl, setEnableOrbitControl,

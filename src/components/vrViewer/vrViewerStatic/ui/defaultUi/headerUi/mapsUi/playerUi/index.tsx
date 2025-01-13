@@ -1,6 +1,6 @@
 
+import { VrViewerStaticContext } from '@/components/vrViewer/vrViewerStatic';
 import {useEffect, useContext,useRef, useState} from 'react';
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
 
 
 const PlayerUi = () => {

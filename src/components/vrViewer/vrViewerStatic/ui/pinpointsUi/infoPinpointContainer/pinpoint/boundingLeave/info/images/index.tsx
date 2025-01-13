@@ -2,10 +2,9 @@ import gsap from "gsap";
 import { Dispatch, SetStateAction, createContext, useContext, useRef, useState } from "react";
 import { InfoPinpointContainerContext } from "../../../..";
 import ResizeHandle from "./resizeHandle";
-import BlueOverlay from "./blueOverlay";
-import { VrViewerStaticContext } from "@/components/homepage/bodyContainer/vrViewer/vrViewerStatic";
 import ImageInfo from "./imageInfo";
 import useAnimation from "@/hooks/animation";
+import { VrViewerStaticContext } from "@/components/vrViewer/vrViewerStatic";
 
 type ImageContextType = {
     isMouseEnter:boolean,
@@ -80,7 +79,6 @@ const Images = () => {
                     }
                 }}
             >
-                <BlueOverlay/>
                 
                 {pin.info.images.imageList.map((image,index)=>
                     <ImageInfo

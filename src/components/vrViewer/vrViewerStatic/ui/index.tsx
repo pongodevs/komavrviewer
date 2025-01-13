@@ -1,13 +1,13 @@
 import { useContext } from "react";
 import DefaultUi from "./defaultUi";
-import { VrViewerContext } from "@/components/homepage/bodyContainer/vrViewer";
-import { VrViewerStaticContext } from "@/components/homepage/bodyContainer/vrViewer/vrViewerStatic";
 import TopgolfUi from "./topgolfUi";
 import EnterEditorMode from "./enterEditorMode";
 import LoadingUi from "./loadingUi";
 import PinpointsUi from "./pinpointsUi";
 import { VRButton } from "@react-three/xr";
 import { isDesktop } from "react-device-detect";
+import { VrViewerContext } from "../..";
+import { VrViewerStaticContext } from "..";
 
 const Ui = () => {
     const {selectedProject, isLocal} = useContext(VrViewerContext)

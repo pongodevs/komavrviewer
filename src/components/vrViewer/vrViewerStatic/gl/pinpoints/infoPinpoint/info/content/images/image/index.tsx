@@ -1,6 +1,3 @@
-import { VrViewerContext } from "@/components/homepage/bodyContainer/vrViewer";
-import { VrViewerStaticContext } from "@/components/homepage/bodyContainer/vrViewer/vrViewerStatic";
-import { ImageInfoType } from "@/types/vrProjectType";
 import { useContext, useState } from "react";
 import * as THREE from 'three'
 import { InfoPinpointContext } from "../../../..";

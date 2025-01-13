@@ -14,7 +14,7 @@ const ProjectLogo = () => {
             {selectedProject.globalSettings.logo.logoUrl !== '' && selectedProject.globalSettings.logo.showLogo?
                 <img
                     className='no-select'
-                    src={selectedProject.globalSettings.logo.logoUrl}
+                    src={'./project/thumbnails/thumbnail.png'}
                     style={{
                         cursor:`pointer`,
                         width:`100%`,

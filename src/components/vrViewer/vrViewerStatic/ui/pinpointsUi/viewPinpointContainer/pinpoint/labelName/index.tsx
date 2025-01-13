@@ -1,10 +1,10 @@
 import {useState,useContext, useRef, useEffect} from 'react';
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
 import { toast } from 'react-toastify';
 import { PinpointContext } from '..';
-import { VrViewerContext } from '@/components/homepage/bodyContainer/vrViewer';
 import { isMobile } from 'react-device-detect';
 import { ViewPinpointContainerContext } from '../..';
+import { VrViewerStaticContext } from '@/components/vrViewer/vrViewerStatic';
+import { VrViewerContext } from '@/components/vrViewer';
 
 const LabelName = () => {
     const {labelRef} = useContext(PinpointContext)

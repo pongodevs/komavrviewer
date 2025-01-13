@@ -1,27 +1,17 @@
 import { useContext, Dispatch, SetStateAction } from 'react';
 
 import ImageList from './imageList';
-import { IoMdArrowDropleft, IoMdArrowDropright, IoMdArrowDropup } from 'react-icons/io';
 import {useState, createContext} from 'react';
 import DropDownIcon from './dropDownIcon';
 import { isDesktop } from 'react-device-detect';
 import {useRef} from 'react';
-import gsap from 'gsap';
 import _ from 'lodash';
-import BlueOverlay from './blueOverlay';
 import ScrollNavigation from './scrollNavigation';
-import { v4 } from 'uuid';
-import { getDownloadURL, ref, uploadBytesResumable } from 'firebase/storage';
 import { useRouter } from 'next/router';
-import useFirebase from '@/hooks/firebase';
-import axios from 'axios';
-import * as THREE from 'three'
-import { toast } from 'react-toastify';
 import Instruction from './instruction';
-import BlackOverlay from './blackOverlay';
 import { VrViewerStaticContext } from '../../../..';
-import { VrViewerContext } from '@/components/homepage/bodyContainer/vrViewer';
 import useAnimation from '@/hooks/animation';
+import { VrViewerContext } from '@/components/vrViewer';
 
 
 type StateType = {
@@ -44,7 +34,6 @@ type ImageNavigatorContextType = {
 
 export const ImageNavigatorContext = createContext<ImageNavigatorContextType>({} as ImageNavigatorContextType)
 const ImageNavigator = () => {
-    const router = useRouter()
     const {selectedProject} = useContext(VrViewerContext)
     const {selectedScene, isEditorMode, isUploading, selectedMap} = useContext(VrViewerStaticContext)
     const [isShowNavigation, setIsShowNavigation] = useState(true)
@@ -173,7 +162,6 @@ const ImageNavigator = () => {
             >
                 <Instruction/>
                 {/* Blue Overlay when drag and drop */}
-                <BlueOverlay/>
                 {/* Scroll bar */}
                 {imageNavRef.current?
                     imageNavRef.current?.scrollWidth > imageNavRef.current?.clientWidth?
@@ -188,7 +176,6 @@ const ImageNavigator = () => {
                         index={index}
                     />
                 )}
-                <BlackOverlay/>
             </div>
             
             <DropDownIcon/>

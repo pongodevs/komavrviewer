@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { FaVolumeDown, FaVolumeMute } from 'react-icons/fa';
 import {useContext} from 'react';
 import { VrViewerStaticContext } from '../../../../..';
-import { VrViewerContext } from '@/components/homepage/bodyContainer/vrViewer';
+import { VrViewerContext } from '@/components/vrViewer';
 
 const AmbientSound = () => {
     const { isVolumeOn, setIsVolumeOn, audio, setAudio} = useContext(VrViewerStaticContext)

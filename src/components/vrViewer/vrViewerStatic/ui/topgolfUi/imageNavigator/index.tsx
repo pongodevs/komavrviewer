@@ -1,12 +1,10 @@
 import { useContext } from "react";
 import ImageList from "./imageList";
-import { VrViewerContext } from "@/components/homepage/bodyContainer/vrViewer";
-import { VrViewerStaticContext } from "@/components/homepage/bodyContainer/vrViewer/vrViewerStatic";
 import { TopgolfUiContext } from "..";
 import { isDesktop } from "react-device-detect";
+import { VrViewerStaticContext } from "../../..";
 
 const ImageNavigator = () => {
-    const {selectedProject,} = useContext(VrViewerContext)
     const {selectedMap, selectedScene} = useContext(VrViewerStaticContext)
     const filteredViewList = selectedScene.viewList.filter(view=>{
         return view.mapId == selectedMap._id

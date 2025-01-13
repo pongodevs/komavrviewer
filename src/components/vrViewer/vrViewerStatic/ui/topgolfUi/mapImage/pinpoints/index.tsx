@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import Pinpoint from "./pinpoint";
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
+import { VrViewerStaticContext } from "@/components/vrViewer/vrViewerStatic";
 
 
 const Pinpoints = () => {

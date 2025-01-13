@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { useRef } from "react";
 import {isIOS, isSafari, isMobileSafari, isAndroid} from 'react-device-detect'
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
+import { VrViewerStaticContext } from "../../..";
 
 const EnterVrButton = () => {
     const buttonRef = useRef<HTMLDivElement>(null)

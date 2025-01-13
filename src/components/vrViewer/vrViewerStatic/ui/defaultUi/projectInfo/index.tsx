@@ -3,10 +3,7 @@ import { IoIosArrowBack, IoIosArrowDown, IoIosArrowForward } from 'react-icons/i
 import Description from './description';
 import ProjectName from './projectName';
 import { BsPlusCircleDotted } from 'react-icons/bs';
-import useFirebase from '@/hooks/firebase';
 import { useRouter } from 'next/router';
-import DonutProgress from '@/components/common/donutProgress';
-import BlueOverlay from './blueOverlay';
 import { isDesktop } from 'react-device-detect';
 import { VrViewerStaticContext } from '../../..';
 import { VrViewerContext } from '../../../..';
@@ -20,10 +17,8 @@ type ProjectInfoContextType ={
 }
 export const ProjectInfoContext = createContext<ProjectInfoContextType>({} as ProjectInfoContextType)
 const ProjectInfo = () => {
-    const router = useRouter()
     const { setShowInfo, showInfo, isEditorMode, borderRadius, projectInfoRef} = useContext(VrViewerStaticContext)
     const {setSelectedProject,selectedProject} = useContext(VrViewerContext)
-    const {storage} = useFirebase()
     const [isMouseEnter, setIsMouseEnter] = useState(false)
     const [progress, setProgress] = useState(0)
 
@@ -69,7 +64,8 @@ const ProjectInfo = () => {
                     }}
                     
                 >
-                    {selectedProject.globalSettings.logo.logoUrl !== '' && selectedProject.globalSettings.logo.showLogo?
+                    {/* Logo Image */}
+                    {/* {selectedProject.globalSettings.logo.logoUrl !== '' && selectedProject.globalSettings.logo.showLogo?
                         <img
                             className='no-select'
                             onClick={()=>{
@@ -77,37 +73,15 @@ const ProjectInfo = () => {
                                     setShowInfo(prev=>{return !prev})
                                 }
                             }}
-                            src={selectedProject.globalSettings.logo.logoUrl}
+                            src={'./images/icons/info_pinpoint.png'}
                             style={{
                                 cursor:`pointer`,
                                 width:`100%`,
                                 zIndex:`1`
                             }}
                         />
-                    :null}
-    
-
-                    {progress > 0?
-                        <div
-                            style={{
-                                position:`absolute`,
-                                display:`flex`,
-                                width:`100%`,
-                                height:`100%`,
-                                justifyContent:`center`,
-                                alignItems:`center`,
-                                top:`0`
-                            }}
-                        >
-                            <DonutProgress
-                                borderWidth='0.7rem'
-                                progress={progress}
-                                width='7rem'
-                            />
-                        </div>
-                    :null}
+                    :null} */}
                     
-                    <BlueOverlay/>
                     {/* background */}
                     {selectedProject.globalSettings.logo.logoUrl === '' && selectedProject.globalSettings.logo.showLogo && isEditorMode?
                         <>

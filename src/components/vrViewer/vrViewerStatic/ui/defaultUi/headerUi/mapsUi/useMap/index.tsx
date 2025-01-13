@@ -1,6 +1,6 @@
+import { VrViewerContext } from '@/components/vrViewer';
+import { VrViewerStaticContext } from '@/components/vrViewer/vrViewerStatic';
 import {useContext} from 'react';
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
-import { VrViewerContext } from '@/components/homepage/bodyContainer/vrViewer';
 
 const UseMap = () => {
     const {selectedMap, currentView} = useContext(VrViewerStaticContext)

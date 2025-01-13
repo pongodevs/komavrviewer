@@ -1,11 +1,9 @@
 
 import React from 'react'
 import { useRef,  useContext} from 'react';
-import { BiRotateLeft } from 'react-icons/bi';
-import { FaCamera } from 'react-icons/fa';
 import { TbRotate360, TbRotateClockwise } from 'react-icons/tb';
 import {isIOS, isSafari, isMobileSafari, isAndroid} from 'react-device-detect'
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
+import { VrViewerStaticContext } from '../../..';
 
 const DeviceOrientation = () => {
     const {enableDoc,setEnableDoc, masterContainerRef} = useContext(VrViewerStaticContext)

@@ -1,10 +1,10 @@
 import { PinpointType, viewListObject } from "@/types/vrProjectType";
 import { createContext, useContext, useEffect, useState, useRef, Dispatch, SetStateAction } from 'react';
-import { VrViewerStaticContext } from '@/components/homepage/bodyContainer/vrViewer/vrViewerStatic';
 import * as THREE from 'three'
 import Pinpoint from "./pinpoint";
-import { VrViewerContext } from '@/components/homepage/bodyContainer/vrViewer';
 import { PinpointsUiContext } from "..";
+import { VrViewerContext } from "@/components/vrViewer";
+import { VrViewerStaticContext } from "../../..";
 
 type ViewPinpointContainerContextType = {
     pin:PinpointType,
