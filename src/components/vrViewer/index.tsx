@@ -3,7 +3,6 @@ import { Dispatch,  SetStateAction, createContext, useEffect, useState } from "r
 import VrViewerStatic from "./vrViewerStatic";
 import { useRouter } from "next/router";
 import * as THREE from 'three'
-import { isDesktop } from "react-device-detect";
 import LoadingManager from "./loadingManager";
 import useDecoder from "@/hooks/decoder";
 import _ from "lodash";
@@ -83,7 +82,7 @@ const VrViewer = ({vrProject}:{vrProject:VrProjectType}) => {
                 const newScenes = project.scenes.map((scene)=>{
                     const viewList = scene.viewList.map((view:ViewListType)=>{
                         // const urlToLoad = view.imageUrl
-                        const urlToLoad = `${view.imageUrl}/project/${scene.sceneName}/${view.viewName}.jpg`
+                        const urlToLoad = `/project/scenes/${scene.sceneName}/${view.viewName}.jpg`
                         console.log(urlToLoad)
                         const texture = textureLoader.load(urlToLoad)
                         texture.magFilter = THREE.LinearFilter

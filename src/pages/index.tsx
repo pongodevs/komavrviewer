@@ -6,10 +6,10 @@ const HomepageIndex = () => {
     return ( 
         <>
             <Head>
-                <title>{'Pongo Library'}</title>
+                <title>{'VR Viewer'}</title>
                 <meta 
                     name="description"
-                    content={'All in one Blender Addon to improve and optimize your workflow.'}
+                    content={'Topgolf VR Viewer.'}
                 />
                 <meta 
                     name="viewport" 
@@ -22,11 +22,11 @@ const HomepageIndex = () => {
                 {/* Open Graph Protocol */}
                 <meta 
                     property="og:title" 
-                    content={'Pongo Library'}
+                    content={'VR Viewer'}
                 />
                 <meta
                     property="og:description"
-                    content={'All in one Blender Addon to improve and optimize your workflow.'}
+                    content={'Topgolf VR Viewer.'}
                 />
                 {/* Image */}
                 <meta
