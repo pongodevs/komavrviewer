@@ -1,6 +1,8 @@
-import VrViewer from "@/components/vrViewer";
 import Head from "next/head";
 import project from '../project.json'
+import dynamic from 'next/dynamic'
+
+const VrViewerNoSSR = dynamic(() => import('@/components/vrViewer'), { ssr: false })
 
 const HomepageIndex = () => {
     return ( 
@@ -54,7 +56,7 @@ const HomepageIndex = () => {
                     content="an example render of Pongo" 
                 />
             </Head>
-            <VrViewer
+            <VrViewerNoSSR
                 vrProject={project as any}
             />
         </>
