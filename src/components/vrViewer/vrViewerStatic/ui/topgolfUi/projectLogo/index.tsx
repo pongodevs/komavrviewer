@@ -1,8 +1,10 @@
 import { useContext } from "react";
 import { VrViewerContext } from "../../../..";
+import useMainUrl from "@/hooks/mainUrl";
 
 const ProjectLogo = () => {
     const {selectedProject} = useContext(VrViewerContext)
+    const {mainUrl} = useMainUrl()
     return (  
         <div
             style={{
@@ -14,7 +16,7 @@ const ProjectLogo = () => {
             {selectedProject.globalSettings.logo.logoUrl !== '' && selectedProject.globalSettings.logo.showLogo?
                 <img
                     className='no-select'
-                    src={'./project/thumbnails/thumbnail.png'}
+                    src={`${mainUrl}/thumbnails/thumbnail.png`}
                     style={{
                         cursor:`pointer`,
                         width:`100%`,

@@ -9,6 +9,7 @@ import _ from "lodash";
 import { userObject, UserType } from "@/types/userType";
 import DialogBoxContainer from "./dialogBoxContainer";
 import LoadingOverlay from "./loadingOverlay";
+import useMainUrl from "@/hooks/mainUrl";
 
 
 type VrViewerContextType = {
@@ -38,7 +39,7 @@ type VrViewerContextType = {
     setLoadingText:Dispatch<SetStateAction<string>>,
     isDev:boolean,
     isLocal:boolean,
-    setIsLocal:Dispatch<SetStateAction<boolean>>
+    setIsLocal:Dispatch<SetStateAction<boolean>>,
 }
 export const VrViewerContext = createContext<VrViewerContextType>({} as VrViewerContextType)
 
@@ -71,6 +72,7 @@ const VrViewer = ({vrProject}:{vrProject:VrProjectType}) => {
     const isDev = router.route.toLowerCase().includes('developer')
     // Is local
     const [isLocal, setIsLocal] = useState(false)
+    const {mainUrl} = useMainUrl()
 
 
     // Init project
@@ -82,7 +84,9 @@ const VrViewer = ({vrProject}:{vrProject:VrProjectType}) => {
                 const newScenes = project.scenes.map((scene)=>{
                     const viewList = scene.viewList.map((view:ViewListType)=>{
                         // const urlToLoad = view.imageUrl
-                        const urlToLoad = `/project/scenes/${scene.sceneName}/${view.viewName}.jpg`
+                        
+                        // const urlToLoad = `/project/scenes/${scene.sceneName}/${view.viewName}.jpg` LOCAL
+                        const urlToLoad = `${mainUrl}/scenes/${scene.sceneName}/${view.viewName}.jpg`.replaceAll(' ','%20')
                         console.log(urlToLoad)
                         const texture = textureLoader.load(urlToLoad)
                         texture.magFilter = THREE.LinearFilter
@@ -125,7 +129,7 @@ const VrViewer = ({vrProject}:{vrProject:VrProjectType}) => {
                 showDialogBox,setShowDialogBox,
                 loadingText,setLoadingText,
                 isDev,
-                isLocal,setIsLocal
+                isLocal,setIsLocal,
             }}
         >
             {selectedProject._id !== ''?

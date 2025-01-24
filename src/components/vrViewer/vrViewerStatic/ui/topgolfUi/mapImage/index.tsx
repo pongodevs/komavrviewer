@@ -3,10 +3,12 @@ import Pinpoints from "./pinpoints";
 import PlayerUi from "./playerUi";
 import { TopgolfUiContext } from "..";
 import { VrViewerStaticContext } from "../../..";
+import useMainUrl from "@/hooks/mainUrl";
 
 const MapImage = ({backgroundColor}:{backgroundColor?:string}) => {
     const {selectedMap} = useContext(VrViewerStaticContext)
     const {mapRef, lightBlueColor} = useContext(TopgolfUiContext)
+    const {mainUrl} = useMainUrl()
     return (  
         <div
             style={{
@@ -35,8 +37,16 @@ const MapImage = ({backgroundColor}:{backgroundColor?:string}) => {
                 >
                     <Pinpoints/>
                     <PlayerUi/>
-                    <img
+                    
+                    {/* <img
                         src={`./project/maps/${selectedMap.mapName}.png`}
+                        style={{
+                            width:`100%`,
+                            height:`100%`,
+                        }}
+                    /> LOCAL*/} 
+                    <img
+                        src={`${mainUrl}/maps/${selectedMap.mapName}.png`}
                         style={{
                             width:`100%`,
                             height:`100%`,
