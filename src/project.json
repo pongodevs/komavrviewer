@@ -878,7 +878,7 @@
               "_id": "f578218e-3c75-4dc1-981d-85b87a95a50b",
               "customPinpointId": "ae98525d-53f8-4fff-9f32-9e92e57a9ea3",
               "toViewId": "5fea0677-fa50-43e5-a32f-410d6e05568c",
-              "labelName": "Golf Field",
+              "labelName": "Golf Range",
               "redirectUrl": "",
               "position": {
                 "y": -1.3852555110342364,
@@ -1107,7 +1107,7 @@
               "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2F48f3b315-1f47-5dcc-813f-9006a3a1d529%2Fthumbnail%2FVR8%20Hitting%20Bay%20-%20R1-0d5dd525-bc6f-4ba5-bc77-c17f72d6c535.jpg?alt=media&token=62e6ef78-e3ea-46aa-b01a-5f69815ab179"
             }
           ],
-          "labelName": "Golf Field",
+          "labelName": "Golf Range",
           "position": {
             "z": 0,
             "x": 0,
@@ -1526,7 +1526,7 @@
             },
             {
               "toViewId": "5fea0677-fa50-43e5-a32f-410d6e05568c",
-              "labelName": "Golf Field",
+              "labelName": "Golf Range",
               "position": {
                 "y": 3.2510051622245224,
                 "z": -19.720396632736787,
