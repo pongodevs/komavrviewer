@@ -304,7 +304,7 @@ export const viewListObject:ViewListType = {
     imageUrl4000:'',
     imageUrl6000:'',
     depthUrl:'',
-    position:{
+    position:{  
         x:0,
         y:0,
         z:0

@@ -74,7 +74,6 @@ const VrViewer = ({vrProject}:{vrProject:VrProjectType}) => {
     const [isLocal, setIsLocal] = useState(false)
     const {mainUrl} = useMainUrl()
 
-
     // Init project
     useEffect(()=>{
         const init = async ()=>{
@@ -85,9 +84,8 @@ const VrViewer = ({vrProject}:{vrProject:VrProjectType}) => {
                     const viewList = scene.viewList.map((view:ViewListType)=>{
                         // const urlToLoad = view.imageUrl
                         
-                        // const urlToLoad = `/project/scenes/${scene.sceneName}/${view.viewName}.jpg` LOCAL
+                        // const urlToLoad = `/projects/${selectedProject._id}/scenes/${scene.sceneName}/${view.viewName}.jpg` //LOCAL
                         const urlToLoad = `${mainUrl}/scenes/${scene.sceneName}/${view.viewName}.jpg`.replaceAll(' ','%20')
-                        console.log(urlToLoad)
                         const texture = textureLoader.load(urlToLoad)
                         texture.magFilter = THREE.LinearFilter
                         texture.minFilter = THREE.LinearFilter
@@ -111,6 +109,14 @@ const VrViewer = ({vrProject}:{vrProject:VrProjectType}) => {
 
     const [showDialogBox, setShowDialogBox] = useState(<></>)
     const [loadingText, setLoadingText] = useState('')
+
+    useEffect(()=>{
+        if (origin !== 'http://localhost:3000') {
+            console.log = () => {
+
+            }
+        }
+    },[])
 
     return (  
         <VrViewerContext.Provider

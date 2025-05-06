@@ -1,0 +1,4451 @@
+{
+  "creatorId": "mNYQNJM1kMfwg8RXZr7VBUJfAwt1",
+  "isPublished": false,
+  "infoPinpoints": {
+    "pinpoints": [],
+    "isShow": false
+  },
+  "maps": [
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fmap%2FGF%20topgolf.png-59a19cb6-5229-4fdf-a34c-50ce2102993c.jpg?alt=media&token=b842997c-061d-4541-8246-8d507ade6569",
+      "showViewfinder": true,
+      "sizePercentage": 100,
+      "pinpoints": [
+        {
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "toViewId": "870dffc8-0496-4d39-9e62-143d6cf10480",
+          "redirectUrl": "",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F1F%20Entrance%20Lobby-870dffc8-0496-4d39-9e62-143d6cf10480.jpg?alt=media&token=06764cab-dace-4c8c-b8ff-913fe3a76b82",
+          "position": {
+            "x": 54,
+            "z": 0,
+            "y": 41.57303370786517
+          },
+          "_id": "72bf7c07-4135-4725-852b-b19fe222af73",
+          "labelName": "Default",
+          "toViewName": "",
+          "info": {
+            "description": "",
+            "width": 320,
+            "header": "",
+            "url": "",
+            "position": {
+              "y": 220,
+              "x": 340
+            },
+            "_id": "3fb586f9-6941-4416-ae8a-1eaa1bbd6f03",
+            "images": {
+              "imageList": [],
+              "containerHeight": 100
+            },
+            "height": 255
+          }
+        },
+        {
+          "info": {
+            "images": {
+              "imageList": [],
+              "containerHeight": 100
+            },
+            "position": {
+              "x": 340,
+              "y": 220
+            },
+            "url": "",
+            "description": "",
+            "height": 255,
+            "_id": "60a53b88-b452-47a3-89f2-41eb8d7b486e",
+            "header": "",
+            "width": 320
+          },
+          "toViewId": "c544b643-44db-4f0e-b7e7-968e6dcb8d43",
+          "position": {
+            "y": 38.20224719101123,
+            "x": 60.285714285714285,
+            "z": 0
+          },
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F1F%20Core%20Restaurant%202%20VR-c544b643-44db-4f0e-b7e7-968e6dcb8d43.jpg?alt=media&token=a3fdcfc4-f7ca-41bf-a725-ad18638f3bda",
+          "labelName": "Default",
+          "redirectUrl": "",
+          "_id": "f4db6ac9-cd27-40f6-afee-70b53672ac34",
+          "toViewName": "",
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4"
+        },
+        {
+          "labelName": "Default",
+          "toViewId": "1186f9f7-a55f-493a-ab45-4f02e5282357",
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "info": {
+            "position": {
+              "x": 340,
+              "y": 220
+            },
+            "height": 255,
+            "width": 320,
+            "images": {
+              "containerHeight": 100,
+              "imageList": []
+            },
+            "url": "",
+            "header": "",
+            "description": "",
+            "_id": "d8a35a93-f299-4e3f-bc81-deb337dd5a11"
+          },
+          "redirectUrl": "",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FHitting%20Bay%20LW%20VR-1186f9f7-a55f-493a-ab45-4f02e5282357.jpg?alt=media&token=b6107dff-c7a9-4d13-a98b-fc27b052042c",
+          "_id": "21ded4a5-057d-4d63-9d75-baa7ea053aeb",
+          "position": {
+            "z": 0,
+            "y": 29.775280898876407,
+            "x": 54
+          },
+          "toViewName": ""
+        },
+        {
+          "toViewId": "e1f1bfc5-821a-4157-8233-5cc42a41586a",
+          "position": {
+            "x": 22.857142857142858,
+            "z": 0,
+            "y": 86.51685393258427
+          },
+          "_id": "8e28a0ec-c3bf-416e-9faf-2effc858959f",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%201%20Front%20Gate-e1f1bfc5-821a-4157-8233-5cc42a41586a.jpg?alt=media&token=05a5e643-cce7-410a-adc4-b5cae8f3c71c",
+          "toViewName": "",
+          "redirectUrl": "",
+          "labelName": "Default",
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "info": {
+            "description": "",
+            "header": "",
+            "_id": "46edf0d3-cc0d-4b48-a980-5a1a3ce5d312",
+            "width": 320,
+            "position": {
+              "y": 220,
+              "x": 340
+            },
+            "url": "",
+            "height": 255,
+            "images": {
+              "containerHeight": 100,
+              "imageList": []
+            }
+          }
+        },
+        {
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2019%20Amphitheater-841152d2-00b4-4f1c-bee0-c0f42e044ca1.jpg?alt=media&token=1ba97bc3-4f5f-4914-aea7-f4e45315a5fc",
+          "info": {
+            "header": "",
+            "images": {
+              "imageList": [],
+              "containerHeight": 100
+            },
+            "width": 320,
+            "url": "",
+            "position": {
+              "x": 340,
+              "y": 220
+            },
+            "height": 255,
+            "_id": "4a53392d-f68f-4716-bfe4-95ff86ae1873",
+            "description": ""
+          },
+          "redirectUrl": "",
+          "_id": "1a5c1e4a-81f3-4333-98af-234418cba97b",
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "labelName": "Default",
+          "toViewName": "",
+          "toViewId": "841152d2-00b4-4f1c-bee0-c0f42e044ca1",
+          "position": {
+            "x": 86.57142857142858,
+            "z": 0,
+            "y": 13.48314606741573
+          }
+        },
+        {
+          "info": {
+            "url": "",
+            "images": {
+              "containerHeight": 100,
+              "imageList": []
+            },
+            "position": {
+              "x": 340,
+              "y": 220
+            },
+            "width": 320,
+            "_id": "07c1f84a-0e60-4944-97a5-60de9d89c89a",
+            "header": "",
+            "height": 255,
+            "description": ""
+          },
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%202%20Front%20Plaza-6a371d5b-7320-403c-8897-cf4662c725ae.jpg?alt=media&token=8cdee496-2249-4672-9397-ab8300f63373",
+          "redirectUrl": "",
+          "toViewName": "",
+          "position": {
+            "z": 0,
+            "x": 50.28571428571429,
+            "y": 64.60674157303372
+          },
+          "labelName": "Default",
+          "toViewId": "6a371d5b-7320-403c-8897-cf4662c725ae",
+          "_id": "cdf43d7a-cf18-47e2-ad89-a78b3b5012cc"
+        },
+        {
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%203%20Main%20Entrance.-a2fc099c-4538-4f73-ba38-0d4379f432b1.jpg?alt=media&token=1d84a8e7-fe29-4768-94af-b8b2623472d4",
+          "info": {
+            "url": "",
+            "width": 320,
+            "_id": "224e25d4-787e-4c3a-af99-67419071ef21",
+            "position": {
+              "x": 340,
+              "y": 220
+            },
+            "height": 255,
+            "images": {
+              "imageList": [],
+              "containerHeight": 100
+            },
+            "header": "",
+            "description": ""
+          },
+          "toViewName": "",
+          "labelName": "Default",
+          "position": {
+            "z": 0,
+            "y": 53.93258426966292,
+            "x": 52
+          },
+          "toViewId": "99260768-5ede-421b-bc18-eb730c86a05b",
+          "redirectUrl": "",
+          "_id": "d5865437-24f1-4799-941c-b8f50b46c1e2",
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4"
+        },
+        {
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2020-068e24f5-87b9-4711-846d-830e9ec11e9d.jpg?alt=media&token=4e910332-f609-475f-a243-3bbc738a7956",
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "position": {
+            "x": 33.14285714285714,
+            "y": 94.3820224719101,
+            "z": 0
+          },
+          "toViewId": "068e24f5-87b9-4711-846d-830e9ec11e9d",
+          "_id": "1af3194e-ef87-4a6a-b1b4-ad0297e9ad33",
+          "toViewName": "",
+          "redirectUrl": "",
+          "labelName": "Default",
+          "info": {
+            "_id": "4cb64539-c031-4db5-8108-94564f04979c",
+            "images": {
+              "containerHeight": 100,
+              "imageList": []
+            },
+            "description": "",
+            "header": "",
+            "position": {
+              "y": 220,
+              "x": 340
+            },
+            "url": "",
+            "width": 320,
+            "height": 255
+          }
+        },
+        {
+          "toViewName": "",
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "position": {
+            "y": 46.62921348314607,
+            "x": 67.14285714285714,
+            "z": 0
+          },
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2021-1afe0cda-6f5d-4411-be45-361dc4d5a444.jpg?alt=media&token=ce96d39f-ef91-4f51-ac58-1eaa91cc6e80",
+          "labelName": "Default",
+          "redirectUrl": "",
+          "toViewId": "1afe0cda-6f5d-4411-be45-361dc4d5a444",
+          "_id": "e4184e5d-2aaa-4d99-8c09-c72fccf488af",
+          "info": {
+            "description": "",
+            "position": {
+              "x": 340,
+              "y": 220
+            },
+            "_id": "b9eeb88b-fd7d-42d5-ba0d-b1a0557064e6",
+            "height": 255,
+            "images": {
+              "containerHeight": 100,
+              "imageList": []
+            },
+            "header": "",
+            "width": 320,
+            "url": ""
+          }
+        }
+      ],
+      "mapName": "Lower Floor",
+      "_id": "bdd4f6c0-adfb-402f-9155-b63eb82ced81"
+    },
+    {
+      "sizePercentage": 100,
+      "pinpoints": [
+        {
+          "info": {
+            "_id": "4c1ebfc8-57ec-4d47-b01c-0c2728c0ceb8",
+            "height": 255,
+            "width": 320,
+            "url": "",
+            "images": {
+              "containerHeight": 100,
+              "imageList": []
+            },
+            "position": {
+              "x": 340,
+              "y": 220
+            },
+            "description": "",
+            "header": ""
+          },
+          "toViewId": "1215352e-7995-4051-8335-fa75ba98dfb8",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR18%20Gameroom.-526b89be-b123-4a34-96b6-a98795b184f3.jpg?alt=media&token=d330e39d-ff95-46d8-ae39-07ffad05bbfa",
+          "_id": "eb1a0dcb-7da4-494e-895a-f54f9707232c",
+          "position": {
+            "z": 0,
+            "x": 26,
+            "y": 42.59984338292874
+          },
+          "redirectUrl": "",
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "labelName": "Default",
+          "toViewName": ""
+        },
+        {
+          "position": {
+            "x": 45.14285714285714,
+            "y": 33.82928739232576,
+            "z": 0
+          },
+          "info": {
+            "width": 320,
+            "description": "",
+            "_id": "64e01352-0956-411f-9c88-181230098962",
+            "header": "",
+            "url": "",
+            "images": {
+              "imageList": [],
+              "containerHeight": 100
+            },
+            "height": 255,
+            "position": {
+              "y": 220,
+              "x": 340
+            }
+          },
+          "_id": "db0ecfaf-c796-4d80-926f-5fd85b8e91cb",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FHitting%20Bay%20MD%20VR-cb1cc6f6-6e71-4ce2-86ef-0b7407b771a7.jpg?alt=media&token=e991a43d-a63e-473f-8aef-79ab8d2d5171",
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "labelName": "Default",
+          "toViewId": "cb1cc6f6-6e71-4ce2-86ef-0b7407b771a7",
+          "redirectUrl": "",
+          "toViewName": ""
+        },
+        {
+          "toViewName": "",
+          "toViewId": "9fa2ddd9-1d85-4e82-8406-4673e779e396",
+          "info": {
+            "header": "",
+            "position": {
+              "x": 340,
+              "y": 220
+            },
+            "url": "",
+            "description": "",
+            "height": 255,
+            "_id": "6a094577-7d52-4257-b2a4-87becdfcda30",
+            "images": {
+              "imageList": [],
+              "containerHeight": 100
+            },
+            "width": 320
+          },
+          "redirectUrl": "",
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "position": {
+            "x": 47.714285714285715,
+            "y": 48.864526233359435,
+            "z": 0
+          },
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F2F%20Lobby%20VR.-8cb05e18-8de9-4049-82a3-905483d388e2.jpg?alt=media&token=4d5f60ee-8997-40cb-8d15-49cd10df65b6",
+          "labelName": "Default",
+          "_id": "c8f740fb-8c6f-4fd8-88e6-79b6b14155f5"
+        },
+        {
+          "position": {
+            "z": 0,
+            "y": 47.61158966327329,
+            "x": 54.57142857142857
+          },
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "labelName": "Default",
+          "redirectUrl": "",
+          "toViewId": "2dc50ba2-6d2a-4d92-9a54-45f6aae5b4b4",
+          "info": {
+            "url": "",
+            "height": 255,
+            "position": {
+              "y": 220,
+              "x": 340
+            },
+            "description": "",
+            "_id": "5e9f7178-2d8c-43b6-8549-1e5376276092",
+            "images": {
+              "imageList": [],
+              "containerHeight": 100
+            },
+            "header": "",
+            "width": 320
+          },
+          "_id": "a8314ae2-d272-40a9-ac82-3e8adea62b16",
+          "toViewName": "",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F2F%2019th%20Social%20VR.-049a215e-cdeb-45b9-80f2-dad7188ee251.jpg?alt=media&token=baef8a04-9dd4-4c57-bc1b-4ebfcc5fb906"
+        }
+      ],
+      "_id": "61b37c3c-f933-41f5-bd9f-614a58d0d33b",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fmap%2FMF%20topgolf.png-ec6819c5-760a-4f01-ba84-1823ddcf9aa3.jpg?alt=media&token=6551fff6-9410-4f8e-aa85-c12d9d29bfae",
+      "showViewfinder": true,
+      "mapName": "Middle Floor"
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fmap%2FUF%20topgolf.png-5fad691b-130a-4296-8eea-d57def0e05fc.jpg?alt=media&token=cc04d29c-e1bd-44bf-ba12-f54820ea9529",
+      "pinpoints": [
+        {
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "toViewId": "24ad15da-a286-422a-972b-0e17c02a6663",
+          "info": {
+            "position": {
+              "y": 220,
+              "x": 340
+            },
+            "height": 255,
+            "width": 320,
+            "_id": "d206be60-660f-4959-92f2-8dc5be34e7e0",
+            "url": "",
+            "description": "",
+            "images": {
+              "imageList": [],
+              "containerHeight": 100
+            },
+            "header": ""
+          },
+          "_id": "77262aa4-f693-4e46-af77-c090dd604ec3",
+          "position": {
+            "y": 21.910112359550563,
+            "x": 87.71428571428571,
+            "z": 0
+          },
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR19%20Clubhouse-24ad15da-a286-422a-972b-0e17c02a6663.jpg?alt=media&token=920d0b91-137c-4c2a-bbb4-f7bfbae7895d",
+          "labelName": "Default",
+          "redirectUrl": "",
+          "toViewName": ""
+        },
+        {
+          "toViewId": "ca064ec6-265d-4e34-8427-6940aa9514b7",
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "toViewName": "",
+          "labelName": "Default",
+          "_id": "ff614a33-6987-4324-aca3-a0649a0f187b",
+          "info": {
+            "_id": "ba084bb0-a53f-4ed4-a002-c9f06d831846",
+            "height": 255,
+            "position": {
+              "y": 220,
+              "x": 340
+            },
+            "header": "",
+            "description": "",
+            "width": 320,
+            "url": "",
+            "images": {
+              "containerHeight": 100,
+              "imageList": []
+            }
+          },
+          "redirectUrl": "",
+          "position": {
+            "x": 39.714285714285715,
+            "z": 0,
+            "y": 55.0561797752809
+          },
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F3F%20Signature%20Resto%20VR-ca064ec6-265d-4e34-8427-6940aa9514b7.jpg?alt=media&token=0462ca53-80fb-40c1-a8e5-4cddfb67ae95"
+        },
+        {
+          "position": {
+            "y": 50.56179775280899,
+            "z": 0,
+            "x": 29.714285714285715
+          },
+          "redirectUrl": "",
+          "toViewId": "bb0faf24-e9a8-429a-8417-770695ecf0a3",
+          "info": {
+            "position": {
+              "y": 220,
+              "x": 340
+            },
+            "width": 320,
+            "height": 255,
+            "_id": "026cd331-b089-40ae-8c66-4676be5ee4f9",
+            "header": "",
+            "description": "",
+            "url": "",
+            "images": {
+              "containerHeight": 100,
+              "imageList": []
+            }
+          },
+          "labelName": "Default",
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F3F%20Signature%20PDR%20VR-bb0faf24-e9a8-429a-8417-770695ecf0a3.jpg?alt=media&token=0d5c82b1-5059-4bda-958b-698d995b5d56",
+          "_id": "dc818590-ed80-42f9-8226-da314f8002bc",
+          "toViewName": ""
+        },
+        {
+          "labelName": "Default",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVIP%20Lounge%20VR-1cd62224-2604-471c-86a8-738974d9d924.jpg?alt=media&token=5de3ecde-c37a-4be5-989f-953483bdc65f",
+          "info": {
+            "description": "",
+            "url": "",
+            "_id": "b73fcb41-61a2-4545-881b-a9a9ddd3f520",
+            "images": {
+              "containerHeight": 100,
+              "imageList": []
+            },
+            "header": "",
+            "width": 320,
+            "position": {
+              "y": 220,
+              "x": 340
+            },
+            "height": 255
+          },
+          "toViewId": "1cd62224-2604-471c-86a8-738974d9d924",
+          "position": {
+            "y": 31.46067415730337,
+            "x": 34.285714285714285,
+            "z": 0
+          },
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "toViewName": "",
+          "redirectUrl": "",
+          "_id": "1b5a7501-64de-428d-932f-6246ce2ea8d0"
+        },
+        {
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "toViewName": "",
+          "toViewId": "2e3aa630-46bd-494f-af18-e47a02a23afe",
+          "_id": "d34366c4-f3a9-4016-8f5d-27475fea8507",
+          "info": {
+            "description": "",
+            "images": {
+              "imageList": [],
+              "containerHeight": 100
+            },
+            "url": "",
+            "height": 255,
+            "width": 320,
+            "position": {
+              "x": 340,
+              "y": 220
+            },
+            "_id": "00f5e9f8-e4ef-46c4-8316-38f9295da9b7",
+            "header": ""
+          },
+          "labelName": "Default",
+          "position": {
+            "z": 0,
+            "y": 25.280898876404496,
+            "x": 18.285714285714285
+          },
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVVIP%20Style%202%20VR-2e3aa630-46bd-494f-af18-e47a02a23afe.jpg?alt=media&token=993a4010-938d-4aed-abc1-e468ec0abb06",
+          "redirectUrl": ""
+        },
+        {
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVVIP%20Style%201%20VR-1787c071-42b1-4062-b9d9-3c0bebb33749.jpg?alt=media&token=aa47c571-7776-45eb-b29e-967a4cfa3107",
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "toViewName": "",
+          "position": {
+            "y": 31.46067415730337,
+            "x": 57.714285714285715,
+            "z": 0
+          },
+          "labelName": "Default",
+          "toViewId": "1787c071-42b1-4062-b9d9-3c0bebb33749",
+          "info": {
+            "width": 320,
+            "_id": "79921b6d-2845-463a-9083-074b043cb277",
+            "images": {
+              "imageList": [],
+              "containerHeight": 100
+            },
+            "url": "",
+            "description": "",
+            "height": 255,
+            "position": {
+              "x": 340,
+              "y": 220
+            },
+            "header": ""
+          },
+          "redirectUrl": "",
+          "_id": "33b91e79-42b0-4efa-9cc6-dd459e1b95d2"
+        },
+        {
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "info": {
+            "width": 320,
+            "height": 255,
+            "images": {
+              "containerHeight": 100,
+              "imageList": []
+            },
+            "url": "",
+            "position": {
+              "y": 220,
+              "x": 340
+            },
+            "header": "",
+            "_id": "a9ac87f6-13f4-4a43-8ce7-6fb8b7ff7928",
+            "description": ""
+          },
+          "position": {
+            "x": 56.285714285714285,
+            "z": 0,
+            "y": 62.35955056179775
+          },
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2012%203F%20Terrace-f6fcf6b9-c7d9-41d8-b8fa-e75fba0093d0.jpg?alt=media&token=5a738066-86d4-4776-9923-a2cc5a49cd5d",
+          "redirectUrl": "",
+          "labelName": "Default",
+          "toViewName": "",
+          "_id": "d86cb0bd-5a08-4b8f-8658-3451e2c58525",
+          "toViewId": "f6fcf6b9-c7d9-41d8-b8fa-e75fba0093d0"
+        },
+        {
+          "_id": "6b3cded2-6792-473b-8aae-90c1ec2f250b",
+          "position": {
+            "x": 60,
+            "z": 0,
+            "y": 85.95505617977528
+          },
+          "redirectUrl": "",
+          "info": {
+            "url": "",
+            "_id": "e0cb45eb-c782-4c9b-91e0-754ad27e40aa",
+            "height": 255,
+            "position": {
+              "y": 220,
+              "x": 340
+            },
+            "description": "",
+            "images": {
+              "containerHeight": 100,
+              "imageList": []
+            },
+            "width": 320,
+            "header": ""
+          },
+          "labelName": "Default",
+          "toViewName": "",
+          "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+          "toViewId": "dec9417f-dfbb-4d31-b539-fbc5e5b4f1ee",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2013%203F%20Terrace-dec9417f-dfbb-4d31-b539-fbc5e5b4f1ee.jpg?alt=media&token=3efc0b22-9e4d-48b1-9af5-6e57b4687e93"
+        }
+      ],
+      "mapName": "Upper Floor",
+      "sizePercentage": 100,
+      "_id": "cc3b4fb8-5efc-4e54-b3c7-b5b2214587ec",
+      "showViewfinder": true
+    }
+  ],
+  "_id": "fdd79a97-24e8-5048-b39b-04e0e0cbcad8",
+  "projectThumbnail": "",
+  "spatialAudio": {
+    "volume": 100,
+    "enable": false,
+    "audios": []
+  },
+  "editStatus": {
+    "editedBy": "",
+    "loginIp": ""
+  },
+  "email": "storage.koma@gmail.com",
+  "dateCreated": 1742355851638,
+  "customPinpoints": [
+    {
+      "_id": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+      "sizePercentage": 80,
+      "type": "view",
+      "fontScale": 100,
+      "thumbnailXPosition": 0,
+      "imageUrl": "",
+      "showThumbnail": true,
+      "label": "Pin 1",
+      "is3d": false,
+      "thumbnailSize": 100,
+      "opacity": 100,
+      "thumbnailYPosition": 1
+    }
+  ],
+  "projectName": "Topgolf - Wenzhou",
+  "info": {
+    "text": "",
+    "label": ""
+  },
+  "detailedGlbUrl": "",
+  "globalSettings": {
+    "logo": {
+      "showLogo": true,
+      "logoUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Flogo%2Ftop%20golf%20wenzhou%20logo.png-271225ef-9170-4e51-8e1a-b699ed9614dc.jpg?alt=media&token=8dc7f092-401e-4aa4-8a7e-09d964f5729d",
+      "sizePercentage": 100
+    },
+    "autoplay": {
+      "flipFlop": false,
+      "speed": 100,
+      "timeout": 5,
+      "isPlay": false
+    },
+    "loading": {
+      "autoLoad": false
+    },
+    "instruction": {
+      "showInstruction": false
+    },
+    "showLabel": {
+      "mapPinpoint": "hover",
+      "imageNavigation": "hover",
+      "viewportPinpoint": "hover"
+    },
+    "map": {
+      "widthPercentage": 100
+    },
+    "music": {
+      "enable": false,
+      "label": "",
+      "volume": 100,
+      "url": ""
+    },
+    "colorCorrection": {
+      "brightness": 100,
+      "enable": false,
+      "saturation": 100,
+      "contrast": 100
+    },
+    "camera": {
+      "enableZoom": false
+    },
+    "transition": {
+      "enableZoomTransition": false,
+      "style": "fade",
+      "duration": 1
+    },
+    "teleportation": {
+      "isShow": true,
+      "minOpacity": 0.2,
+      "showPinpoint": true,
+      "maxOpacity": 1,
+      "circleSize": 100,
+      "showCircle": true
+    },
+    "navigation": {
+      "onlyShownAsPerMap": false
+    },
+    "customUi": "topgolf",
+    "measurement": {
+      "enable": true
+    },
+    "dollHouse": {
+      "sectionHeight": 0,
+      "enable": true
+    }
+  },
+  "glbUrl": "",
+  "scenes": [
+    {
+      "type": "primary",
+      "_id": "7cd4dd0f-1dd6-4984-bf94-8f01ba2f3714",
+      "sceneName": "Scene 1",
+      "viewList": [
+        {
+          "fov": 100,
+          "depthMacroTexture": "",
+          "_id": "e1f1bfc5-821a-4157-8233-5cc42a41586a",
+          "labelName": "Front Gate",
+          "redirectUrl": "",
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "794959d4-fd1f-409b-a4a7-fafdb29322bf",
+            "name": "",
+            "image": "acacc314-abc4-42fd-b336-bbb0ed1f08ba",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "imageUrl6000": "",
+          "viewName": "VR 1.",
+          "pinpoints": [
+            {
+              "redirectUrl": "",
+              "position": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+              },
+              "labelName": "",
+              "toViewId": "",
+              "_id": "",
+              "info": {
+                "url": "",
+                "header": "",
+                "_id": "",
+                "description": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "width": 320,
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "height": 255
+              },
+              "customPinpointId": "",
+              "thumbnailUrl": "",
+              "toViewName": ""
+            },
+            {
+              "position": {
+                "x": 155.03013022011456,
+                "y": 12.241233236352144,
+                "z": -155.58285969172445
+              },
+              "toViewId": "6a371d5b-7320-403c-8897-cf4662c725ae",
+              "_id": "acc090d2-be03-4943-9b81-180f2127fbce",
+              "toViewName": "",
+              "redirectUrl": "",
+              "labelName": "Front Plaza",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%202%20Front%20Plaza-6a371d5b-7320-403c-8897-cf4662c725ae.jpg?alt=media&token=8cdee496-2249-4672-9397-ab8300f63373",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "info": {
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "description": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "_id": "14c47575-df5f-40ea-bf2c-7e49b10f3042",
+                "header": "",
+                "url": "",
+                "height": 255,
+                "width": 320
+              }
+            },
+            {
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2020-068e24f5-87b9-4711-846d-830e9ec11e9d.jpg?alt=media&token=4e910332-f609-475f-a243-3bbc738a7956",
+              "redirectUrl": "",
+              "position": {
+                "y": 1.109503323640672,
+                "x": 211.1446372313741,
+                "z": -61.57927628298478
+              },
+              "_id": "fa877671-6be7-4701-b46e-b7a295b30178",
+              "info": {
+                "width": 320,
+                "header": "",
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "url": "",
+                "height": 255,
+                "_id": "1f041f38-3095-4ff5-844e-186278ec2232",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "description": ""
+              },
+              "toViewId": "068e24f5-87b9-4711-846d-830e9ec11e9d",
+              "labelName": "Parking Lot",
+              "toViewName": "",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4"
+            }
+          ],
+          "lensflare": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2FVR%201.-3c624717-8571-46cf-a569-80e363b0a89f.jpg?alt=media&token=23843e56-3df9-4122-b833-7b42fb46e2cd",
+          "depthUrl": "",
+          "imageUrl4000": "",
+          "depthMicroTexture": "",
+          "position": {
+            "y": 0,
+            "z": 0,
+            "x": 0
+          },
+          "rotation": -0.7,
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%201.-3c624717-8571-46cf-a569-80e363b0a89f.jpg?alt=media&token=3bc75798-7c95-4c53-9064-b542853a6d5a",
+          "floorPosition": {
+            "y": 0,
+            "x": 0,
+            "z": 0
+          },
+          "mapId": "bdd4f6c0-adfb-402f-9155-b63eb82ced81"
+        },
+        {
+          "labelName": "Parking Lot",
+          "lensflare": {
+            "position": {
+              "y": 0,
+              "x": 0,
+              "z": 0
+            }
+          },
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2020-068e24f5-87b9-4711-846d-830e9ec11e9d.jpg?alt=media&token=4e910332-f609-475f-a243-3bbc738a7956",
+          "depthMicroTexture": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2FVR%2020-068e24f5-87b9-4711-846d-830e9ec11e9d.jpg?alt=media&token=7e7e8ac3-63f4-4883-aa77-d628bd53a9b3",
+          "floorPosition": {
+            "z": 0,
+            "x": 0,
+            "y": 0
+          },
+          "fov": 100,
+          "depthMacroTexture": "",
+          "pinpoints": [
+            {
+              "labelName": "",
+              "toViewId": "",
+              "redirectUrl": "",
+              "customPinpointId": "",
+              "thumbnailUrl": "",
+              "toViewName": "",
+              "_id": "",
+              "info": {
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "header": "",
+                "_id": "",
+                "url": "",
+                "height": 255,
+                "description": "",
+                "width": 320
+              },
+              "position": {
+                "x": 0,
+                "z": 0,
+                "y": 0
+              }
+            },
+            {
+              "position": {
+                "y": 2.6663475049089977,
+                "x": 50.858148455641846,
+                "z": -213.95663762708665
+              },
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "toViewId": "e1f1bfc5-821a-4157-8233-5cc42a41586a",
+              "info": {
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "height": 255,
+                "_id": "f40910f9-4577-4a54-b99d-48c3d2261c51",
+                "header": "",
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "width": 320,
+                "description": "",
+                "url": ""
+              },
+              "_id": "9fae1087-ac77-4025-8f66-bb0b668c1720",
+              "redirectUrl": "",
+              "labelName": "Front Gate",
+              "toViewName": "",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR1%20Front%20Gate.-1a2e8fa0-0b1f-4714-b30c-10445c491af4.jpg?alt=media&token=b2dd8332-5c28-4e01-b97a-598f2582bb10"
+            },
+            {
+              "labelName": "Front Plaza",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "redirectUrl": "",
+              "toViewName": "",
+              "_id": "dd596bb8-d76d-4307-ac77-ffb2b297fe14",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%202%20Front%20Plaza%20REG.-f0f4f5b9-df59-4a53-97df-e0f71b4f02b1.jpg?alt=media&token=c9260732-e82a-4e2d-8b87-16b0ebd61dee",
+              "info": {
+                "width": 320,
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "description": "",
+                "url": "",
+                "_id": "61e98aea-6610-4adc-adb3-190b93a130da",
+                "header": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "height": 255
+              },
+              "toViewId": "6a371d5b-7320-403c-8897-cf4662c725ae",
+              "position": {
+                "y": 34.063832484620875,
+                "x": 205.6220389861233,
+                "z": 70.25538785841348
+              }
+            }
+          ],
+          "redirectUrl": "",
+          "viewName": "VR 20",
+          "_id": "068e24f5-87b9-4711-846d-830e9ec11e9d",
+          "rotation": 70,
+          "imageUrl4000": "",
+          "imageUrl6000": "",
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "1a84c107-8512-41fe-987d-bd7536c80c90",
+            "name": "",
+            "image": "3b1f6978-4172-4ac9-92c2-fff80d7d80b6",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "mapId": "bdd4f6c0-adfb-402f-9155-b63eb82ced81",
+          "position": {
+            "x": 0,
+            "z": 0,
+            "y": 0
+          },
+          "depthUrl": ""
+        },
+        {
+          "labelName": "Front Plaza",
+          "lensflare": {
+            "position": {
+              "y": 0,
+              "x": 0,
+              "z": 0
+            }
+          },
+          "_id": "6a371d5b-7320-403c-8897-cf4662c725ae",
+          "viewName": "VR 2.",
+          "depthMacroTexture": "",
+          "position": {
+            "x": 0,
+            "z": 0,
+            "y": 0
+          },
+          "redirectUrl": "",
+          "imageUrl6000": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2FVR%202.-a91c95c0-f90b-4dfc-a3fb-0fd15fb41755.jpg?alt=media&token=ba720a66-c1f5-4265-8a5d-b1b8d15c6e7d",
+          "depthUrl": "",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%202.-a91c95c0-f90b-4dfc-a3fb-0fd15fb41755.jpg?alt=media&token=562ed71b-5f3c-4b36-a21c-5687421b92f8",
+          "depthMicroTexture": "",
+          "fov": 100,
+          "rotation": 84.3,
+          "imageUrl4000": "",
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "b356c917-df0d-4c4e-a47f-b8ab29d52270",
+            "name": "",
+            "image": "8b079d1d-656e-4eb4-8f75-c6b244581424",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "pinpoints": [
+            {
+              "customPinpointId": "",
+              "info": {
+                "width": 320,
+                "_id": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "url": "",
+                "description": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "header": "",
+                "height": 255
+              },
+              "toViewId": "",
+              "_id": "",
+              "thumbnailUrl": "",
+              "redirectUrl": "",
+              "toViewName": "",
+              "position": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+              },
+              "labelName": ""
+            },
+            {
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "labelName": "Front Gate",
+              "toViewName": "",
+              "redirectUrl": "",
+              "info": {
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "width": 320,
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "url": "",
+                "_id": "5d21b145-2768-4618-add5-6d991a6635b3",
+                "height": 255,
+                "description": "",
+                "header": ""
+              },
+              "toViewId": "e1f1bfc5-821a-4157-8233-5cc42a41586a",
+              "_id": "dea17503-d444-4019-9f86-99b67ff806f5",
+              "position": {
+                "y": -15.037191538066892,
+                "x": -126.50926348103953,
+                "z": -179.26359845989614
+              },
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%201%20Front%20Gate-e1f1bfc5-821a-4157-8233-5cc42a41586a.jpg?alt=media&token=05a5e643-cce7-410a-adc4-b5cae8f3c71c"
+            },
+            {
+              "info": {
+                "height": 255,
+                "_id": "6e843877-0ba9-4b89-a821-857cfb639c21",
+                "description": "",
+                "header": "",
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "width": 320,
+                "url": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                }
+              },
+              "toViewName": "",
+              "_id": "1dda4531-86e3-45f0-b971-3c485b4e3a7d",
+              "toViewId": "99260768-5ede-421b-bc18-eb730c86a05b",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%203%20Main%20Entrance-99260768-5ede-421b-bc18-eb730c86a05b.jpg?alt=media&token=cdf7d173-8992-40aa-8b79-1354b5993b49",
+              "position": {
+                "x": 218.19186522356205,
+                "y": -11.54548765339991,
+                "z": 25.093870676345993
+              },
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "redirectUrl": "",
+              "labelName": "Main Entrance"
+            },
+            {
+              "redirectUrl": "",
+              "toViewName": "",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2020-068e24f5-87b9-4711-846d-830e9ec11e9d.jpg?alt=media&token=4e910332-f609-475f-a243-3bbc738a7956",
+              "toViewId": "068e24f5-87b9-4711-846d-830e9ec11e9d",
+              "labelName": "Parking Lot",
+              "_id": "ea604323-230c-4091-b713-1eac42d8b50a",
+              "position": {
+                "y": -39.93851384223057,
+                "z": -80.7486408865352,
+                "x": -200.64641001430104
+              },
+              "info": {
+                "description": "",
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "width": 320,
+                "_id": "dde27cf9-9a26-42df-9b42-b6e19a490c4d",
+                "height": 255,
+                "header": "",
+                "url": "",
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                }
+              },
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4"
+            },
+            {
+              "toViewName": "",
+              "position": {
+                "y": -3.637879661031825,
+                "z": 141.29403905827579,
+                "x": 168.51319036275876
+              },
+              "labelName": "Outdoor Patio",
+              "redirectUrl": "",
+              "toViewId": "1afe0cda-6f5d-4411-be45-361dc4d5a444",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2021-1afe0cda-6f5d-4411-be45-361dc4d5a444.jpg?alt=media&token=ce96d39f-ef91-4f51-ac58-1eaa91cc6e80",
+              "info": {
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "url": "",
+                "height": 255,
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "width": 320,
+                "header": "",
+                "description": "",
+                "_id": "5018fb1e-91bb-495c-a18d-4639c405406f"
+              },
+              "_id": "91f896a1-fadb-4ddb-8bad-97256647e2f2",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4"
+            }
+          ],
+          "floorPosition": {
+            "y": 0,
+            "x": 0,
+            "z": 0
+          },
+          "mapId": "bdd4f6c0-adfb-402f-9155-b63eb82ced81"
+        },
+        {
+          "floorPosition": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_id": "1afe0cda-6f5d-4411-be45-361dc4d5a444",
+          "depthUrl": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2FVR%2021.-1be8c32b-6bb8-48b8-bbd1-617d9fb77994.jpg?alt=media&token=9d1910f5-65d0-4618-be5f-441a956884ea",
+          "mapId": "bdd4f6c0-adfb-402f-9155-b63eb82ced81",
+          "depthMacroTexture": "",
+          "redirectUrl": "",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2021.-1be8c32b-6bb8-48b8-bbd1-617d9fb77994.jpg?alt=media&token=13ff5d31-51ca-409d-abbb-cb0f09cab9c6",
+          "fov": 100,
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "7eb649a9-bf21-406d-8342-0fa643b065e9",
+            "name": "",
+            "image": "762193f4-1e44-4412-baec-819bdee496e6",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "depthMicroTexture": "",
+          "rotation": 175.1,
+          "pinpoints": [
+            {
+              "labelName": "",
+              "customPinpointId": "",
+              "thumbnailUrl": "",
+              "position": {
+                "y": 0,
+                "x": 0,
+                "z": 0
+              },
+              "redirectUrl": "",
+              "_id": "",
+              "info": {
+                "description": "",
+                "width": 320,
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "_id": "",
+                "header": "",
+                "url": "",
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "height": 255
+              },
+              "toViewId": "",
+              "toViewName": ""
+            },
+            {
+              "labelName": "Amphitheater",
+              "redirectUrl": "",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2019%20Amphitheater-841152d2-00b4-4f1c-bee0-c0f42e044ca1.jpg?alt=media&token=1ba97bc3-4f5f-4914-aea7-f4e45315a5fc",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "toViewName": "",
+              "toViewId": "841152d2-00b4-4f1c-bee0-c0f42e044ca1",
+              "info": {
+                "description": "",
+                "header": "",
+                "url": "",
+                "width": 320,
+                "height": 255,
+                "_id": "b367795a-8570-431e-a9f5-ea2d99585705",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "position": {
+                  "x": 340,
+                  "y": 220
+                }
+              },
+              "position": {
+                "x": -196.93373321101663,
+                "y": 42.05640104404885,
+                "z": 88.49268230565835
+              },
+              "_id": "19920994-3d1f-48af-bba4-f148f2f95c30"
+            },
+            {
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR2%20Front%20Plaza.-f4b997e2-cf4b-4940-bc2c-db65a39adce4.jpg?alt=media&token=a4ff0a87-35a3-4466-957d-af368a92c4eb",
+              "info": {
+                "height": 255,
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "description": "",
+                "width": 320,
+                "header": "",
+                "_id": "b62df8e3-f2dd-40db-be9e-45f503d8fcf4",
+                "url": ""
+              },
+              "position": {
+                "z": -183.76655994949766,
+                "x": 120.4802397573582,
+                "y": -8.893365627217861
+              },
+              "labelName": "Front Plaza",
+              "_id": "1775c7df-bc61-40d8-bb4a-df983fe94a5b",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "redirectUrl": "",
+              "toViewId": "6a371d5b-7320-403c-8897-cf4662c725ae",
+              "toViewName": ""
+            },
+            {
+              "toViewName": "",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%203%20Main%20Entrance.-a2fc099c-4538-4f73-ba38-0d4379f432b1.jpg?alt=media&token=1d84a8e7-fe29-4768-94af-b8b2623472d4",
+              "info": {
+                "height": 255,
+                "_id": "f21c654f-e34b-4232-9faf-4f0aaa5ebcc7",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "header": "",
+                "url": "",
+                "width": 320,
+                "description": ""
+              },
+              "_id": "1b23ff21-8665-423f-b04b-dc301c1cc7b0",
+              "labelName": "Main Entrance",
+              "toViewId": "99260768-5ede-421b-bc18-eb730c86a05b",
+              "redirectUrl": "",
+              "position": {
+                "z": -115.01745829373887,
+                "x": 187.300731791918,
+                "y": -7.32643294736304
+              }
+            }
+          ],
+          "imageUrl4000": "",
+          "position": {
+            "y": 0,
+            "x": 0,
+            "z": 0
+          },
+          "lensflare": {
+            "position": {
+              "y": 0,
+              "x": 0,
+              "z": 0
+            }
+          },
+          "viewName": "VR 21.",
+          "labelName": "Outdoor Patio",
+          "imageUrl6000": ""
+        },
+        {
+          "lensflare": {
+            "position": {
+              "y": 0,
+              "z": 0,
+              "x": 0
+            }
+          },
+          "rotation": 180,
+          "position": {
+            "y": 0,
+            "z": 0,
+            "x": 0
+          },
+          "labelName": "Main Entrance",
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "82fd89bc-6e97-4ded-af03-9ca6aed5c89c",
+            "name": "",
+            "image": "b867d7e6-9b23-42b4-b973-e3afa62c9648",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "_id": "99260768-5ede-421b-bc18-eb730c86a05b",
+          "depthMacroTexture": "",
+          "imageUrl4000": "",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%203.-a7b1bf48-ec7e-42c8-8cef-2c11ebb008d5.jpg?alt=media&token=98053a49-ab4c-416b-b072-d03b6a896c9b",
+          "viewName": "VR 3.",
+          "pinpoints": [
+            {
+              "_id": "",
+              "labelName": "",
+              "thumbnailUrl": "",
+              "redirectUrl": "",
+              "toViewName": "",
+              "position": {
+                "x": 0,
+                "z": 0,
+                "y": 0
+              },
+              "customPinpointId": "",
+              "toViewId": "",
+              "info": {
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "header": "",
+                "description": "",
+                "width": 320,
+                "height": 255,
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "url": "",
+                "_id": ""
+              }
+            },
+            {
+              "position": {
+                "x": -0.5987204974247318,
+                "y": 0.8661924773861276,
+                "z": 219.97467273956102
+              },
+              "_id": "e3edb80c-c8f2-4ddc-9551-f44145120f15",
+              "labelName": "1F Entrance Lobby",
+              "toViewId": "870dffc8-0496-4d39-9e62-143d6cf10480",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "redirectUrl": "",
+              "toViewName": "",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F1F%20Entrance%20Lobby-870dffc8-0496-4d39-9e62-143d6cf10480.jpg?alt=media&token=06764cab-dace-4c8c-b8ff-913fe3a76b82",
+              "info": {
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "height": 255,
+                "url": "",
+                "width": 320,
+                "description": "",
+                "header": "",
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "_id": "126bc40d-5847-42dc-81e9-06c01d261850"
+              }
+            },
+            {
+              "position": {
+                "y": -7.040121973348682,
+                "x": 86.72736235149921,
+                "z": -201.99036573273676
+              },
+              "info": {
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "_id": "f716c81c-df30-472b-806c-f40162e20a46",
+                "width": 320,
+                "url": "",
+                "header": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "description": "",
+                "height": 255
+              },
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%202%20Front%20Plaza-6a371d5b-7320-403c-8897-cf4662c725ae.jpg?alt=media&token=8cdee496-2249-4672-9397-ab8300f63373",
+              "_id": "c869623e-9669-4655-bee2-58fcac6aa4e9",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "labelName": "Front Plaza",
+              "toViewId": "6a371d5b-7320-403c-8897-cf4662c725ae",
+              "toViewName": "",
+              "redirectUrl": ""
+            },
+            {
+              "toViewName": "",
+              "position": {
+                "y": -3.1811310170695166,
+                "z": 19.717577966302233,
+                "x": -219.03768700164449
+              },
+              "toViewId": "1afe0cda-6f5d-4411-be45-361dc4d5a444",
+              "info": {
+                "height": 255,
+                "description": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "header": "",
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "width": 320,
+                "url": "",
+                "_id": "36546a1c-4aed-4663-8fb5-3349365c9272"
+              },
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2021-1afe0cda-6f5d-4411-be45-361dc4d5a444.jpg?alt=media&token=ce96d39f-ef91-4f51-ac58-1eaa91cc6e80",
+              "redirectUrl": "",
+              "_id": "65d22b82-7e4d-45e8-b98a-24d194d9796f",
+              "labelName": "Outdoor Patio",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4"
+            }
+          ],
+          "redirectUrl": "",
+          "floorPosition": {
+            "y": 0,
+            "z": 0,
+            "x": 0
+          },
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2FVR%203.-a7b1bf48-ec7e-42c8-8cef-2c11ebb008d5.jpg?alt=media&token=a9f02f12-502e-43c3-a108-7eb6c103f127",
+          "mapId": "bdd4f6c0-adfb-402f-9155-b63eb82ced81",
+          "depthMicroTexture": "",
+          "depthUrl": "",
+          "fov": 100,
+          "imageUrl6000": ""
+        },
+        {
+          "depthMicroTexture": "",
+          "depthUrl": "",
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "ef7bb210-fd85-43a7-9608-67dc07e51aff",
+            "name": "",
+            "image": "f58f1ad8-b7dc-4d7b-af5b-015bd2946449",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2FVR19%20Amphitheater.-4183356a-e82b-4b2b-9e17-bdad13ff9118.jpg?alt=media&token=77135cf3-d845-4004-9442-b0006d36f097",
+          "position": {
+            "y": 0,
+            "z": 0,
+            "x": 0
+          },
+          "pinpoints": [
+            {
+              "customPinpointId": "",
+              "_id": "",
+              "position": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+              },
+              "thumbnailUrl": "",
+              "toViewId": "",
+              "labelName": "",
+              "toViewName": "",
+              "redirectUrl": "",
+              "info": {
+                "width": 320,
+                "url": "",
+                "description": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "_id": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "header": "",
+                "height": 255
+              }
+            },
+            {
+              "_id": "2e998c19-fbb4-4630-ae7c-7ccba0198f6d",
+              "redirectUrl": "",
+              "position": {
+                "x": -25.46654941417545,
+                "y": -30.29608178662688,
+                "z": 216.33229505281903
+              },
+              "toViewName": "",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2021-1afe0cda-6f5d-4411-be45-361dc4d5a444.jpg?alt=media&token=ce96d39f-ef91-4f51-ac58-1eaa91cc6e80",
+              "toViewId": "1afe0cda-6f5d-4411-be45-361dc4d5a444",
+              "info": {
+                "_id": "4992f5b4-3580-46d9-8880-fd9bc399e56d",
+                "url": "",
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "header": "",
+                "width": 320,
+                "description": "",
+                "height": 255
+              },
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "labelName": "Outdoor Patio"
+            }
+          ],
+          "redirectUrl": "",
+          "floorPosition": {
+            "z": 0,
+            "x": 0,
+            "y": 0
+          },
+          "rotation": 0,
+          "fov": 100,
+          "_id": "841152d2-00b4-4f1c-bee0-c0f42e044ca1",
+          "labelName": "Amphitheater",
+          "mapId": "bdd4f6c0-adfb-402f-9155-b63eb82ced81",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR19%20Amphitheater.-4183356a-e82b-4b2b-9e17-bdad13ff9118.jpg?alt=media&token=89f1a80c-556b-458b-af45-e49275075d8d",
+          "imageUrl4000": "",
+          "viewName": "VR19 Amphitheater.",
+          "lensflare": {
+            "position": {
+              "z": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          "depthMacroTexture": "",
+          "imageUrl6000": ""
+        },
+        {
+          "fov": 100,
+          "floorPosition": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "depthMicroTexture": "",
+          "imageUrl4000": "",
+          "imageUrl6000": "",
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "a80e4246-1c29-4d81-a841-d813557e4fb9",
+            "name": "",
+            "image": "b9b96076-d822-44a3-b60a-24ae2863dd99",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "lensflare": {
+            "position": {
+              "y": 0,
+              "z": 0,
+              "x": 0
+            }
+          },
+          "labelName": "1F Entrance Lobby",
+          "depthUrl": "",
+          "mapId": "bdd4f6c0-adfb-402f-9155-b63eb82ced81",
+          "position": {
+            "x": 0,
+            "z": 0,
+            "y": 0
+          },
+          "viewName": "1F Entrance Lobby.",
+          "rotation": 0,
+          "depthMacroTexture": "",
+          "_id": "870dffc8-0496-4d39-9e62-143d6cf10480",
+          "redirectUrl": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2F1F%20Entrance%20Lobby.-862d1c10-094e-4135-b6cd-932cf6587615.jpg?alt=media&token=8b9afd6f-7046-434c-915a-8c66fb6bab9e",
+          "pinpoints": [
+            {
+              "customPinpointId": "",
+              "position": {
+                "z": 0,
+                "y": 0,
+                "x": 0
+              },
+              "_id": "",
+              "labelName": "",
+              "redirectUrl": "",
+              "toViewId": "",
+              "toViewName": "",
+              "thumbnailUrl": "",
+              "info": {
+                "width": 320,
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "description": "",
+                "height": 255,
+                "url": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "_id": "",
+                "header": ""
+              }
+            },
+            {
+              "info": {
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "_id": "23f1f744-40d3-4182-a300-a4793f709815",
+                "description": "",
+                "header": "",
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "url": "",
+                "width": 320,
+                "height": 255
+              },
+              "toViewName": "",
+              "labelName": "1F Core Restaurant",
+              "toViewId": "c544b643-44db-4f0e-b7e7-968e6dcb8d43",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "redirectUrl": "",
+              "position": {
+                "y": -22.97269071878593,
+                "z": 30.67109197457297,
+                "x": 216.59290951186625
+              },
+              "_id": "b0c78541-b3ca-418e-8d2a-71dfaf28fe3e",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F1F%20Core%20Restaurant%202%20VR-c544b643-44db-4f0e-b7e7-968e6dcb8d43.jpg?alt=media&token=a3fdcfc4-f7ca-41bf-a725-ad18638f3bda"
+            },
+            {
+              "info": {
+                "description": "",
+                "url": "",
+                "width": 320,
+                "header": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "_id": "f10bf286-b766-4ffc-a020-f906a8f0119d",
+                "height": 255,
+                "position": {
+                  "y": 220,
+                  "x": 340
+                }
+              },
+              "redirectUrl": "",
+              "toViewId": "1186f9f7-a55f-493a-ab45-4f02e5282357",
+              "labelName": "1F Hitting Bay",
+              "_id": "4e1093ab-db85-4a3f-81dd-d62de696ce64",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FHitting%20Bay%20LW%20VR-1186f9f7-a55f-493a-ab45-4f02e5282357.jpg?alt=media&token=b6107dff-c7a9-4d13-a98b-fc27b052042c",
+              "position": {
+                "x": -1.7952605875047405,
+                "z": -219.60975095048872,
+                "y": -12.116227414940115
+              },
+              "toViewName": "",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4"
+            },
+            {
+              "_id": "b0d0337e-1df7-4ad2-9dfe-a21839ce6c09",
+              "position": {
+                "z": 219.74415119174603,
+                "y": -10.52112855053649,
+                "x": -0.03800156500259364
+              },
+              "toViewId": "99260768-5ede-421b-bc18-eb730c86a05b",
+              "toViewName": "",
+              "labelName": "Main Entrance",
+              "redirectUrl": "",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%203%20Main%20Entrance.-a2fc099c-4538-4f73-ba38-0d4379f432b1.jpg?alt=media&token=1d84a8e7-fe29-4768-94af-b8b2623472d4",
+              "info": {
+                "url": "",
+                "_id": "541d0c44-be3e-40b3-b560-bc336c914705",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "header": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "height": 255,
+                "description": "",
+                "width": 320
+              }
+            },
+            {
+              "toViewId": "9fa2ddd9-1d85-4e82-8406-4673e779e396",
+              "info": {
+                "_id": "6dee7c8a-f94a-44aa-95ba-ed97f5e21b13",
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "height": 255,
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "width": 320,
+                "description": "",
+                "header": "",
+                "url": ""
+              },
+              "position": {
+                "x": -156.24442448163418,
+                "z": 154.41487936212647,
+                "y": -11.347438862065097
+              },
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F2F%20Lobby%20VR-9fa2ddd9-1d85-4e82-8406-4673e779e396.jpg?alt=media&token=f2e885dd-3e96-44e7-ac4e-516c5547e521",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "_id": "8736bb04-1522-4380-bc2a-0c85fdaf8c1b",
+              "toViewName": "",
+              "labelName": "2F Lobby",
+              "redirectUrl": ""
+            }
+          ],
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F1F%20Entrance%20Lobby.-862d1c10-094e-4135-b6cd-932cf6587615.jpg?alt=media&token=ca76e704-2c30-483b-8b24-190e54411d01"
+        },
+        {
+          "pinpoints": [
+            {
+              "labelName": "",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "toViewName": "",
+              "toViewId": "",
+              "_id": "",
+              "customPinpointId": "",
+              "info": {
+                "header": "",
+                "description": "",
+                "url": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "_id": "",
+                "width": 320,
+                "height": 255
+              },
+              "thumbnailUrl": "",
+              "redirectUrl": ""
+            },
+            {
+              "toViewId": "870dffc8-0496-4d39-9e62-143d6cf10480",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F1F%20Entrance%20Lobby-870dffc8-0496-4d39-9e62-143d6cf10480.jpg?alt=media&token=06764cab-dace-4c8c-b8ff-913fe3a76b82",
+              "toViewName": "",
+              "redirectUrl": "",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "info": {
+                "_id": "76a6d707-67b0-48cb-8de3-3d5b8519e1fa",
+                "header": "",
+                "description": "",
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "width": 320,
+                "height": 255,
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "url": ""
+              },
+              "_id": "2f0ed39d-47a6-4fe2-8834-bc9a7d370aea",
+              "position": {
+                "x": -213.55332164048502,
+                "y": -12.829666690745446,
+                "z": -51.02395981952588
+              },
+              "labelName": "1F Entrance Lobby"
+            },
+            {
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "labelName": "1F Hitting Bay",
+              "redirectUrl": "",
+              "_id": "c61b1f3e-d285-471c-8851-876d1a9d3887",
+              "toViewId": "1186f9f7-a55f-493a-ab45-4f02e5282357",
+              "position": {
+                "x": -96.12334294638292,
+                "z": -197.49627739703735,
+                "y": -11.482083353568143
+              },
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FHitting%20Bay%20LW%20VR-1186f9f7-a55f-493a-ab45-4f02e5282357.jpg?alt=media&token=b6107dff-c7a9-4d13-a98b-fc27b052042c",
+              "toViewName": "",
+              "info": {
+                "url": "",
+                "header": "",
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "height": 255,
+                "_id": "d2ad5fa9-97cd-4b67-ab88-b4198bdc8aa6",
+                "description": "",
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "width": 320
+              }
+            },
+            {
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "_id": "ec3599db-15bd-4ff4-b0b9-fe2dc8a1c412",
+              "info": {
+                "description": "",
+                "width": 320,
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "_id": "2719b0f9-e0a5-47ad-a46d-ffb745a95229",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "header": "",
+                "url": "",
+                "height": 255
+              },
+              "labelName": "2F Lobby VR",
+              "toViewName": "",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F2F%20Lobby%20VR-9fa2ddd9-1d85-4e82-8406-4673e779e396.jpg?alt=media&token=f2e885dd-3e96-44e7-ac4e-516c5547e521",
+              "redirectUrl": "",
+              "position": {
+                "y": -8.655810955158499,
+                "x": -215.84055515789746,
+                "z": 41.44026941228745
+              },
+              "toViewId": "9fa2ddd9-1d85-4e82-8406-4673e779e396"
+            }
+          ],
+          "imageUrl6000": "",
+          "position": {
+            "y": 0,
+            "z": 0,
+            "x": 0
+          },
+          "mapId": "bdd4f6c0-adfb-402f-9155-b63eb82ced81",
+          "labelName": "1F Core Restaurant",
+          "viewName": "1F Core Restaurant 2 VR.",
+          "lensflare": {
+            "position": {
+              "y": 0,
+              "z": 0,
+              "x": 0
+            }
+          },
+          "depthMacroTexture": "",
+          "imageUrl4000": "",
+          "redirectUrl": "",
+          "rotation": 0,
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F1F%20Core%20Restaurant%202%20VR.-0cd97b10-32d4-4dfd-b949-2db6a1f7dac2.jpg?alt=media&token=e3f472ba-8619-404c-bff3-a06dfa3904f4",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2F1F%20Core%20Restaurant%202%20VR.-0cd97b10-32d4-4dfd-b949-2db6a1f7dac2.jpg?alt=media&token=f19bf3c4-350a-4adb-a4e4-491a005c39db",
+          "fov": 100,
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "bde903e9-b729-45ab-a40a-be50bfbf1624",
+            "name": "",
+            "image": "07e39df0-2734-44c7-a21c-ad465e55402e",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "floorPosition": {
+            "z": 0,
+            "x": 0,
+            "y": 0
+          },
+          "depthUrl": "",
+          "depthMicroTexture": "",
+          "_id": "c544b643-44db-4f0e-b7e7-968e6dcb8d43"
+        },
+        {
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2FHitting%20Bay%20LW.-c49cb532-f542-412b-a8d4-3db05170a137.jpg?alt=media&token=1cda7317-8ef2-4c78-9ac4-68f0b193cadb",
+          "_id": "1186f9f7-a55f-493a-ab45-4f02e5282357",
+          "rotation": 0,
+          "imageUrl4000": "",
+          "viewName": "Hitting Bay LW.",
+          "fov": 100,
+          "lensflare": {
+            "position": {
+              "y": 0,
+              "z": 0,
+              "x": 0
+            }
+          },
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FHitting%20Bay%20LW.-c49cb532-f542-412b-a8d4-3db05170a137.jpg?alt=media&token=c49da346-413c-4894-a88e-27f94b89c752",
+          "pinpoints": [
+            {
+              "info": {
+                "width": 320,
+                "description": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "header": "",
+                "_id": "",
+                "url": "",
+                "height": 255,
+                "position": {
+                  "x": 340,
+                  "y": 220
+                }
+              },
+              "customPinpointId": "",
+              "labelName": "",
+              "position": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+              },
+              "_id": "",
+              "toViewId": "",
+              "thumbnailUrl": "",
+              "toViewName": "",
+              "redirectUrl": ""
+            },
+            {
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "toViewName": "",
+              "labelName": "1F Entrance Lobby",
+              "position": {
+                "x": -10.443161713272968,
+                "y": -15.094351079759214,
+                "z": 219.21449145044198
+              },
+              "redirectUrl": "",
+              "_id": "c76af9c7-e9c4-41cf-b80f-cb44567cc211",
+              "info": {
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "height": 255,
+                "width": 320,
+                "url": "",
+                "description": "",
+                "header": "",
+                "_id": "c65a317c-76a9-4601-b0ec-d623f4b61c21"
+              },
+              "toViewId": "870dffc8-0496-4d39-9e62-143d6cf10480",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F1F%20Entrance%20Lobby-870dffc8-0496-4d39-9e62-143d6cf10480.jpg?alt=media&token=06764cab-dace-4c8c-b8ff-913fe3a76b82"
+            },
+            {
+              "redirectUrl": "",
+              "position": {
+                "z": 122.56534955157422,
+                "y": -8.248390662317334,
+                "x": 182.47458762159022
+              },
+              "toViewId": "c544b643-44db-4f0e-b7e7-968e6dcb8d43",
+              "_id": "76b54e9b-70d2-48fb-897e-8bcaf6fed2f6",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "toViewName": "",
+              "info": {
+                "width": 320,
+                "height": 255,
+                "url": "",
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "_id": "d30e72e4-d0aa-408f-88ac-e8bc5a3f0299",
+                "header": "",
+                "description": ""
+              },
+              "labelName": "1F Core Restaurant",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F1F%20Core%20Restaurant%202%20VR-c544b643-44db-4f0e-b7e7-968e6dcb8d43.jpg?alt=media&token=a3fdcfc4-f7ca-41bf-a725-ad18638f3bda"
+            }
+          ],
+          "depthMicroTexture": "",
+          "depthUrl": "",
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "206a5f78-5f48-4e79-bb0a-2f3cad43c492",
+            "name": "",
+            "image": "55bc3884-accb-45c0-8c54-af22f5e5f718",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "depthMacroTexture": "",
+          "mapId": "bdd4f6c0-adfb-402f-9155-b63eb82ced81",
+          "redirectUrl": "",
+          "position": {
+            "x": 0,
+            "z": 0,
+            "y": 0
+          },
+          "imageUrl6000": "",
+          "floorPosition": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "labelName": "Hitting Bay LW"
+        },
+        {
+          "lensflare": {
+            "position": {
+              "x": 0,
+              "z": 0,
+              "y": 0
+            }
+          },
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F2F%20Lobby%20VR.-ac5b3b39-850b-463d-948d-c2e2d23a8d9a.jpg?alt=media&token=383678b9-85ff-427e-8181-e0dbb1b5736d",
+          "position": {
+            "y": 0,
+            "z": 0,
+            "x": 0
+          },
+          "fov": 100,
+          "imageUrl6000": "",
+          "redirectUrl": "",
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "825ee07b-d600-4308-a214-b5224891c08e",
+            "name": "",
+            "image": "775ea597-9c9f-44d7-9782-936cb4081ae1",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "viewName": "2F Lobby VR.",
+          "_id": "9fa2ddd9-1d85-4e82-8406-4673e779e396",
+          "depthMicroTexture": "",
+          "floorPosition": {
+            "x": 0,
+            "z": 0,
+            "y": 0
+          },
+          "labelName": "2F Lobby VR.",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2F2F%20Lobby%20VR.-ac5b3b39-850b-463d-948d-c2e2d23a8d9a.jpg?alt=media&token=bde00f0f-059c-4a9a-bfc8-42d3298e1af5",
+          "pinpoints": [
+            {
+              "customPinpointId": "",
+              "_id": "",
+              "labelName": "",
+              "position": {
+                "z": 0,
+                "y": 0,
+                "x": 0
+              },
+              "info": {
+                "header": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "_id": "",
+                "description": "",
+                "height": 255,
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "width": 320,
+                "url": ""
+              },
+              "thumbnailUrl": "",
+              "toViewName": "",
+              "toViewId": "",
+              "redirectUrl": ""
+            },
+            {
+              "toViewId": "2dc50ba2-6d2a-4d92-9a54-45f6aae5b4b4",
+              "toViewName": "",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F2F%2019th%20Social%20VR-2dc50ba2-6d2a-4d92-9a54-45f6aae5b4b4.jpg?alt=media&token=ce7321a4-7c84-4f8f-a63c-10fc287b2c49",
+              "_id": "896b7bd1-a349-4ddc-91c6-bbbb2e43492b",
+              "info": {
+                "height": 255,
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "_id": "ba4af2ad-211d-4ae1-9b52-b2a44744a6fa",
+                "width": 320,
+                "description": "",
+                "header": "",
+                "url": "",
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                }
+              },
+              "redirectUrl": "",
+              "labelName": "2F 19th Social Club",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "position": {
+                "y": -12.915354339704512,
+                "z": -213.53441533775268,
+                "x": 51.08413462306806
+              }
+            },
+            {
+              "position": {
+                "y": -11.757600674202244,
+                "z": -214.4277366636904,
+                "x": -47.430533212940894
+              },
+              "info": {
+                "header": "",
+                "_id": "48bd07da-3e4c-439d-b6c8-f9a92504f8e1",
+                "url": "",
+                "description": "",
+                "height": 255,
+                "width": 320,
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                }
+              },
+              "redirectUrl": "",
+              "toViewId": "cb1cc6f6-6e71-4ce2-86ef-0b7407b771a7",
+              "toViewName": "",
+              "_id": "2a8a68e1-8d04-4fce-9111-e9dea506d7fd",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "labelName": "2F Hitting Bay",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FHitting%20Bay%20MD%20VR-cb1cc6f6-6e71-4ce2-86ef-0b7407b771a7.jpg?alt=media&token=e991a43d-a63e-473f-8aef-79ab8d2d5171"
+            },
+            {
+              "redirectUrl": "",
+              "info": {
+                "header": "",
+                "width": 320,
+                "url": "",
+                "_id": "7d819555-8a4a-4f5f-b51b-057ae4fd838c",
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "height": 255,
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "description": ""
+              },
+              "_id": "ca114b32-3159-4e97-941e-38929f9b1363",
+              "labelName": "1F Entrance Lobby",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F1F%20Entrance%20Lobby-870dffc8-0496-4d39-9e62-143d6cf10480.jpg?alt=media&token=06764cab-dace-4c8c-b8ff-913fe3a76b82",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "toViewName": "",
+              "toViewId": "870dffc8-0496-4d39-9e62-143d6cf10480",
+              "position": {
+                "x": -213.99642827000892,
+                "z": 48.95858534832497,
+                "y": -13.158379560146255
+              }
+            },
+            {
+              "_id": "493736ee-d710-409e-b556-53ee422b189b",
+              "position": {
+                "y": 37.84154238496627,
+                "z": 216.63535790082415,
+                "x": -3.3774611864011432
+              },
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F3F%20Signature%20Resto%20VR-ca064ec6-265d-4e34-8427-6940aa9514b7.jpg?alt=media&token=0462ca53-80fb-40c1-a8e5-4cddfb67ae95",
+              "redirectUrl": "",
+              "toViewName": "",
+              "labelName": "Signature Restaurant",
+              "toViewId": "ca064ec6-265d-4e34-8427-6940aa9514b7",
+              "info": {
+                "url": "",
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "width": 320,
+                "description": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "height": 255,
+                "_id": "b5b9a8f2-2db7-42fc-8821-b892e4bad398",
+                "header": ""
+              },
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4"
+            }
+          ],
+          "imageUrl4000": "",
+          "mapId": "61b37c3c-f933-41f5-bd9f-614a58d0d33b",
+          "depthUrl": "",
+          "depthMacroTexture": "",
+          "rotation": 0
+        },
+        {
+          "depthMicroTexture": "",
+          "lensflare": {
+            "position": {
+              "x": 0,
+              "z": 0,
+              "y": 0
+            }
+          },
+          "mapId": "61b37c3c-f933-41f5-bd9f-614a58d0d33b",
+          "rotation": 0,
+          "imageUrl4000": "",
+          "labelName": "Hitting Bay MD",
+          "floorPosition": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "07e27b8e-b50f-4db5-99f4-4f37a2e270d3",
+            "name": "",
+            "image": "84c0a6a6-8dce-4843-a03d-d6a4884dbe23",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2FHitting%20Bay%20MD.-d9436ffe-2db0-4363-9623-ec5362058658.jpg?alt=media&token=c6588b8e-aea8-448d-b8aa-58815451cfb0",
+          "fov": 100,
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FHitting%20Bay%20MD.-d9436ffe-2db0-4363-9623-ec5362058658.jpg?alt=media&token=26bc5489-35a4-4d2e-b7e2-cdb19707c793",
+          "depthMacroTexture": "",
+          "imageUrl6000": "",
+          "redirectUrl": "",
+          "viewName": "Hitting Bay MD.",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_id": "cb1cc6f6-6e71-4ce2-86ef-0b7407b771a7",
+          "depthUrl": "",
+          "pinpoints": [
+            {
+              "customPinpointId": "",
+              "redirectUrl": "",
+              "toViewId": "",
+              "position": {
+                "y": 0,
+                "x": 0,
+                "z": 0
+              },
+              "info": {
+                "_id": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "url": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "header": "",
+                "description": "",
+                "width": 320,
+                "height": 255
+              },
+              "labelName": "",
+              "_id": "",
+              "thumbnailUrl": "",
+              "toViewName": ""
+            },
+            {
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "info": {
+                "header": "",
+                "width": 320,
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "height": 255,
+                "url": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "_id": "953e7850-80bf-4671-adfe-be2ab574d2ae",
+                "description": ""
+              },
+              "toViewName": "",
+              "position": {
+                "x": -16.944618222823237,
+                "y": -14.208704439373474,
+                "z": 218.80548829040433
+              },
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F2F%20Lobby%20VR.-8cb05e18-8de9-4049-82a3-905483d388e2.jpg?alt=media&token=4d5f60ee-8997-40cb-8d15-49cd10df65b6",
+              "redirectUrl": "",
+              "_id": "736b572d-ca25-46c5-81aa-45c4bfb371b6",
+              "toViewId": "9fa2ddd9-1d85-4e82-8406-4673e779e396",
+              "labelName": "2F Lobby"
+            },
+            {
+              "toViewName": "",
+              "labelName": "2F 19th Social",
+              "toViewId": "2dc50ba2-6d2a-4d92-9a54-45f6aae5b4b4",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F2F%2019th%20Social%20VR.-049a215e-cdeb-45b9-80f2-dad7188ee251.jpg?alt=media&token=baef8a04-9dd4-4c57-bc1b-4ebfcc5fb906",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "info": {
+                "height": 255,
+                "header": "",
+                "width": 320,
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "description": "",
+                "url": "",
+                "_id": "fcf62156-4c10-4197-ba55-4a7410f6d659",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                }
+              },
+              "redirectUrl": "",
+              "_id": "ef289492-b3f4-42ae-9e71-e65afde27cf4",
+              "position": {
+                "x": 211.60165095604034,
+                "y": -13.07448129077612,
+                "z": 58.46067125421532
+              }
+            },
+            {
+              "_id": "8f7ff08d-12a7-4de8-bf7c-5b5a05e4b980",
+              "info": {
+                "_id": "6c149fc7-e940-4633-b53b-def717679081",
+                "url": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "description": "",
+                "width": 320,
+                "height": 255,
+                "header": ""
+              },
+              "toViewId": "1215352e-7995-4051-8335-fa75ba98dfb8",
+              "labelName": "Gameroom",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR18%20Gameroom.-526b89be-b123-4a34-96b6-a98795b184f3.jpg?alt=media&token=d330e39d-ff95-46d8-ae39-07ffad05bbfa",
+              "toViewName": "",
+              "redirectUrl": "",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "position": {
+                "z": -6.852199236731698,
+                "y": -8.306362207091569,
+                "x": -219.6584479153242
+              }
+            }
+          ]
+        },
+        {
+          "pinpoints": [
+            {
+              "toViewId": "",
+              "toViewName": "",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "info": {
+                "width": 320,
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "height": 255,
+                "url": "",
+                "_id": "",
+                "header": "",
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "description": ""
+              },
+              "redirectUrl": "",
+              "labelName": "",
+              "_id": "",
+              "thumbnailUrl": "",
+              "customPinpointId": ""
+            },
+            {
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F2F%20Lobby%20VR.-8cb05e18-8de9-4049-82a3-905483d388e2.jpg?alt=media&token=4d5f60ee-8997-40cb-8d15-49cd10df65b6",
+              "toViewId": "9fa2ddd9-1d85-4e82-8406-4673e779e396",
+              "redirectUrl": "",
+              "labelName": "2F Lobby",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "info": {
+                "url": "",
+                "height": 255,
+                "description": "",
+                "header": "",
+                "width": 320,
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "_id": "67863cb7-f5a2-48a3-9d42-37861da35cf8"
+              },
+              "position": {
+                "x": -218.5203721424952,
+                "y": -4.902221706999326,
+                "z": 24.479847524633204
+              },
+              "_id": "69193de9-c7ce-4318-8192-2d363c5d6278",
+              "toViewName": ""
+            },
+            {
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FHitting%20Bay%20MD%20VR-cb1cc6f6-6e71-4ce2-86ef-0b7407b771a7.jpg?alt=media&token=e991a43d-a63e-473f-8aef-79ab8d2d5171",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "toViewName": "",
+              "info": {
+                "_id": "5ff2097a-d1c2-4533-aa9d-7710ab9d431a",
+                "description": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "url": "",
+                "width": 320,
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "header": "",
+                "height": 255
+              },
+              "_id": "b236f203-bb13-443b-9c71-22176ebbd95d",
+              "toViewId": "cb1cc6f6-6e71-4ce2-86ef-0b7407b771a7",
+              "position": {
+                "x": -12.888198759060137,
+                "y": -5.584006478190391,
+                "z": -219.50734206950415
+              },
+              "labelName": "2F Hitting Bay",
+              "redirectUrl": ""
+            }
+          ],
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2F2F%2019th%20Social%20VR.-7cf5a90b-58a2-4382-b678-a810d5286810.jpg?alt=media&token=3ae60173-df09-4f53-9af6-71f681cd5922",
+          "lensflare": {
+            "position": {
+              "y": 0,
+              "z": 0,
+              "x": 0
+            }
+          },
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "9ba5ae4a-33f1-45f3-ab92-88afad7b238a",
+            "name": "",
+            "image": "29e596b0-9fcb-41ea-8e02-475d4bad2712",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "floorPosition": {
+            "z": 0,
+            "y": 0,
+            "x": 0
+          },
+          "redirectUrl": "",
+          "viewName": "2F 19th Social VR.",
+          "depthUrl": "",
+          "fov": 100,
+          "labelName": "2F 19th Social",
+          "position": {
+            "y": 0,
+            "z": 0,
+            "x": 0
+          },
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F2F%2019th%20Social%20VR.-7cf5a90b-58a2-4382-b678-a810d5286810.jpg?alt=media&token=990acab9-47e1-420a-9efb-eecd70bf0d2d",
+          "imageUrl6000": "",
+          "_id": "2dc50ba2-6d2a-4d92-9a54-45f6aae5b4b4",
+          "depthMacroTexture": "",
+          "imageUrl4000": "",
+          "mapId": "61b37c3c-f933-41f5-bd9f-614a58d0d33b",
+          "rotation": 0,
+          "depthMicroTexture": ""
+        },
+        {
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2FVR18%20Gameroom.-526b89be-b123-4a34-96b6-a98795b184f3.jpg?alt=media&token=d3bab1d8-4cd0-43c9-aa26-f83647521c68",
+          "_id": "1215352e-7995-4051-8335-fa75ba98dfb8",
+          "floorPosition": {
+            "y": 0,
+            "z": 0,
+            "x": 0
+          },
+          "depthUrl": "",
+          "redirectUrl": "",
+          "rotation": -45.9,
+          "fov": 100,
+          "mapId": "61b37c3c-f933-41f5-bd9f-614a58d0d33b",
+          "depthMacroTexture": "",
+          "imageUrl6000": "",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR18%20Gameroom.-526b89be-b123-4a34-96b6-a98795b184f3.jpg?alt=media&token=d330e39d-ff95-46d8-ae39-07ffad05bbfa",
+          "viewName": "VR18 Gameroom.",
+          "lensflare": {
+            "position": {
+              "y": 0,
+              "z": 0,
+              "x": 0
+            }
+          },
+          "imageUrl4000": "",
+          "labelName": "Gameroom",
+          "depthMicroTexture": "",
+          "position": {
+            "z": 0,
+            "y": 0,
+            "x": 0
+          },
+          "pinpoints": [
+            {
+              "labelName": "",
+              "redirectUrl": "",
+              "customPinpointId": "",
+              "position": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+              },
+              "thumbnailUrl": "",
+              "toViewId": "",
+              "_id": "",
+              "info": {
+                "header": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "_id": "",
+                "description": "",
+                "width": 320,
+                "url": "",
+                "height": 255
+              },
+              "toViewName": ""
+            },
+            {
+              "redirectUrl": "",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FHitting%20Bay%20MD%20VR-cb1cc6f6-6e71-4ce2-86ef-0b7407b771a7.jpg?alt=media&token=e991a43d-a63e-473f-8aef-79ab8d2d5171",
+              "_id": "68dc3654-88ca-4005-8d32-83a35e4aab67",
+              "toViewId": "cb1cc6f6-6e71-4ce2-86ef-0b7407b771a7",
+              "position": {
+                "z": -154.033807463114,
+                "x": -156.61792872940808,
+                "y": -11.276684426791569
+              },
+              "toViewName": "",
+              "labelName": "2F Hitting Bay",
+              "info": {
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "_id": "2a136dae-5948-4bda-ad8b-930241501f46",
+                "width": 320,
+                "height": 255,
+                "description": "",
+                "header": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "url": ""
+              }
+            }
+          ],
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "973fb684-5bfb-4c3b-bc58-0ea15c19f834",
+            "name": "",
+            "image": "24598f07-9427-40f9-a645-472d7c021cea",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          }
+        },
+        {
+          "lensflare": {
+            "position": {
+              "z": 0,
+              "y": 0,
+              "x": 0
+            }
+          },
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2F3F%20Signature%20Resto%20VR-ca064ec6-265d-4e34-8427-6940aa9514b7.jpg?alt=media&token=7e7b8d34-08ea-47a7-8608-2b6bf72dce26",
+          "pinpoints": [
+            {
+              "toViewName": "",
+              "info": {
+                "description": "",
+                "url": "",
+                "height": 255,
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "header": "",
+                "width": 320,
+                "_id": ""
+              },
+              "labelName": "",
+              "thumbnailUrl": "",
+              "redirectUrl": "",
+              "customPinpointId": "",
+              "_id": "",
+              "toViewId": "",
+              "position": {
+                "z": 0,
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "redirectUrl": "",
+              "toViewId": "bb0faf24-e9a8-429a-8417-770695ecf0a3",
+              "info": {
+                "url": "",
+                "_id": "573a820b-ad81-4779-b51e-d33ebf4e308a",
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "width": 320,
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "header": "",
+                "description": "",
+                "height": 255
+              },
+              "_id": "e0d35974-8af0-468e-9513-dd2593ce2497",
+              "position": {
+                "x": 218.60260266807353,
+                "y": 6.840766687556587,
+                "z": 23.329688710683687
+              },
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F3F%20Signature%20PDR%20VR-bb0faf24-e9a8-429a-8417-770695ecf0a3.jpg?alt=media&token=0d5c82b1-5059-4bda-958b-698d995b5d56",
+              "toViewName": "",
+              "labelName": "Signature PDR"
+            },
+            {
+              "toViewName": "",
+              "redirectUrl": "",
+              "_id": "275f9263-1534-41e5-a923-95f93ca58032",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "labelName": "3F Terrace",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2012%203F%20Terrace-f6fcf6b9-c7d9-41d8-b8fa-e75fba0093d0.jpg?alt=media&token=5a738066-86d4-4776-9923-a2cc5a49cd5d",
+              "info": {
+                "description": "",
+                "width": 320,
+                "url": "",
+                "_id": "6bbddd02-9590-4ec6-94e0-847f9c16160c",
+                "header": "",
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "height": 255
+              },
+              "toViewId": "f6fcf6b9-c7d9-41d8-b8fa-e75fba0093d0",
+              "position": {
+                "z": -166.55482973958007,
+                "y": -10.077146412036289,
+                "x": -143.26752459467858
+              }
+            },
+            {
+              "info": {
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "url": "",
+                "_id": "3863f026-3196-4530-be39-0a5ca6414188",
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "width": 320,
+                "height": 255,
+                "header": "",
+                "description": ""
+              },
+              "_id": "a2a62f8e-8293-4028-a684-382ad5a97822",
+              "labelName": "VIP Lounge",
+              "toViewName": "",
+              "position": {
+                "x": -197.1715128900958,
+                "z": 97.3717979402894,
+                "y": -2.9253155076103075
+              },
+              "toViewId": "1cd62224-2604-471c-86a8-738974d9d924",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVIP%20Lounge%20VR-1cd62224-2604-471c-86a8-738974d9d924.jpg?alt=media&token=5de3ecde-c37a-4be5-989f-953483bdc65f",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "redirectUrl": ""
+            }
+          ],
+          "imageUrl4000": "",
+          "fov": 100,
+          "_id": "ca064ec6-265d-4e34-8427-6940aa9514b7",
+          "imageUrl6000": "",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F3F%20Signature%20Resto%20VR-ca064ec6-265d-4e34-8427-6940aa9514b7.jpg?alt=media&token=0462ca53-80fb-40c1-a8e5-4cddfb67ae95",
+          "depthMacroTexture": "",
+          "mapId": "cc3b4fb8-5efc-4e54-b3c7-b5b2214587ec",
+          "viewName": "3F Signature Resto VR",
+          "floorPosition": {
+            "x": 0,
+            "z": 0,
+            "y": 0
+          },
+          "labelName": "Signature Restaurant",
+          "depthUrl": "",
+          "rotation": -180,
+          "depthMicroTexture": "",
+          "position": {
+            "y": 0,
+            "z": 0,
+            "x": 0
+          },
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "0739a644-ef71-4159-9d6d-fbf273e0b891",
+            "name": "",
+            "image": "b4299bb9-79fb-4994-be9a-38324817da02",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "redirectUrl": ""
+        },
+        {
+          "rotation": 180,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2FVR11%203F%20Signature%20PDR.-cfe6cb7d-9669-41d6-aeb8-eb8e15211ae7.jpg?alt=media&token=56941c13-890a-4abd-895b-7962ff06db76",
+          "imageUrl6000": "",
+          "redirectUrl": "",
+          "viewName": "VR11 3F Signature PDR.",
+          "_id": "bb0faf24-e9a8-429a-8417-770695ecf0a3",
+          "pinpoints": [
+            {
+              "info": {
+                "width": 320,
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "header": "",
+                "height": 255,
+                "_id": "",
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "url": "",
+                "description": ""
+              },
+              "redirectUrl": "",
+              "thumbnailUrl": "",
+              "position": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+              },
+              "labelName": "",
+              "toViewName": "",
+              "toViewId": "",
+              "_id": "",
+              "customPinpointId": ""
+            },
+            {
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F3F%20Signature%20Resto%20VR-ca064ec6-265d-4e34-8427-6940aa9514b7.jpg?alt=media&token=0462ca53-80fb-40c1-a8e5-4cddfb67ae95",
+              "position": {
+                "y": 1.8514814355640894,
+                "x": -213.22770202882162,
+                "z": -54.0179265956091
+              },
+              "toViewName": "",
+              "info": {
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "url": "",
+                "_id": "143561de-4b9d-4fe3-a1c5-2fd82240fd6c",
+                "header": "",
+                "description": "",
+                "width": 320,
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "height": 255
+              },
+              "_id": "8fe9939b-a446-4b15-aa26-d3162ca6ecea",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "labelName": "Signature Restaurant",
+              "toViewId": "ca064ec6-265d-4e34-8427-6940aa9514b7",
+              "redirectUrl": ""
+            }
+          ],
+          "imageUrl4000": "",
+          "depthMicroTexture": "",
+          "lensflare": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "depthMacroTexture": "",
+          "mapId": "cc3b4fb8-5efc-4e54-b3c7-b5b2214587ec",
+          "labelName": "3F Signature PDR",
+          "fov": 100,
+          "position": {
+            "z": 0,
+            "x": 0,
+            "y": 0
+          },
+          "depthUrl": "",
+          "floorPosition": {
+            "y": 0,
+            "z": 0,
+            "x": 0
+          },
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "33adc6aa-7f30-48e8-9c24-876c6a96e1b1",
+            "name": "",
+            "image": "6cdcc6eb-3937-42c7-9fa8-69231b99b069",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR11%203F%20Signature%20PDR.-cfe6cb7d-9669-41d6-aeb8-eb8e15211ae7.jpg?alt=media&token=73c67b9f-fb5b-429a-a3b9-230aabd52626"
+        },
+        {
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "cbfa0e2f-5824-476a-8797-23a10927304e",
+            "name": "",
+            "image": "580f3743-4546-4f2f-9f6b-f6bceb0630e5",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "rotation": 5.2,
+          "imageUrl4000": "",
+          "depthMacroTexture": "",
+          "mapId": "cc3b4fb8-5efc-4e54-b3c7-b5b2214587ec",
+          "depthUrl": "",
+          "depthMicroTexture": "",
+          "viewName": "3F VIP Lounge VR.",
+          "floorPosition": {
+            "z": 0,
+            "x": 0,
+            "y": 0
+          },
+          "position": {
+            "z": 0,
+            "y": 0,
+            "x": 0
+          },
+          "fov": 100,
+          "_id": "1cd62224-2604-471c-86a8-738974d9d924",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2F3F%20VIP%20Lounge%20VR.-05d411ea-03d3-4db5-9edd-d686d54280c7.jpg?alt=media&token=5daecc1f-d7c1-4483-b31a-b1fc5de19a5d",
+          "lensflare": {
+            "position": {
+              "y": 0,
+              "z": 0,
+              "x": 0
+            }
+          },
+          "labelName": "VIP Lounge",
+          "imageUrl6000": "",
+          "redirectUrl": "",
+          "pinpoints": [
+            {
+              "_id": "",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "redirectUrl": "",
+              "info": {
+                "_id": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "description": "",
+                "width": 320,
+                "height": 255,
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "url": "",
+                "header": ""
+              },
+              "toViewId": "",
+              "labelName": "",
+              "customPinpointId": "",
+              "toViewName": "",
+              "thumbnailUrl": ""
+            },
+            {
+              "info": {
+                "header": "",
+                "width": 320,
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "url": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "description": "",
+                "_id": "a9d0e26b-d436-4cb8-809a-f90c6ef0b1d4",
+                "height": 255
+              },
+              "redirectUrl": "",
+              "position": {
+                "z": 147.36222686118188,
+                "y": -8.060293734045729,
+                "x": -163.07915508403326
+              },
+              "toViewId": "2e3aa630-46bd-494f-af18-e47a02a23afe",
+              "toViewName": "",
+              "labelName": "VVIP Style 2",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "_id": "18c8599f-edd1-4141-9d11-ba13439a8477",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVVIP%20Style%202%20VR-2e3aa630-46bd-494f-af18-e47a02a23afe.jpg?alt=media&token=993a4010-938d-4aed-abc1-e468ec0abb06"
+            },
+            {
+              "_id": "24210f65-b97e-4f42-8a22-eb6906bb1cc3",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVVIP%20Style%201%20VR-1787c071-42b1-4062-b9d9-3c0bebb33749.jpg?alt=media&token=aa47c571-7776-45eb-b29e-967a4cfa3107",
+              "toViewName": "",
+              "redirectUrl": "",
+              "info": {
+                "height": 255,
+                "header": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "description": "",
+                "url": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "width": 320,
+                "_id": "dcde3f7e-a976-4cef-a3b3-52437b05396c"
+              },
+              "labelName": "VVIP Style 1",
+              "position": {
+                "x": 156.99036770346933,
+                "y": -4.440276614580454,
+                "z": 154.03011660069618
+              },
+              "toViewId": "1787c071-42b1-4062-b9d9-3c0bebb33749"
+            }
+          ],
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F3F%20VIP%20Lounge%20VR.-05d411ea-03d3-4db5-9edd-d686d54280c7.jpg?alt=media&token=ae5059c7-e741-4d1c-8afb-304429d2b460"
+        },
+        {
+          "depthMacroTexture": "",
+          "redirectUrl": "",
+          "imageUrl6000": "",
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "a3d24e08-b8b5-4b31-b3ba-6520d27579f8",
+            "name": "",
+            "image": "024aa9d9-b5de-4c7b-b7f8-eddea525e976",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "mapId": "cc3b4fb8-5efc-4e54-b3c7-b5b2214587ec",
+          "position": {
+            "z": 0,
+            "x": 0,
+            "y": 0
+          },
+          "pinpoints": [
+            {
+              "redirectUrl": "",
+              "position": {
+                "z": 0,
+                "y": 0,
+                "x": 0
+              },
+              "_id": "",
+              "toViewName": "",
+              "info": {
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "_id": "",
+                "description": "",
+                "url": "",
+                "width": 320,
+                "height": 255,
+                "header": "",
+                "position": {
+                  "y": 220,
+                  "x": 340
+                }
+              },
+              "thumbnailUrl": "",
+              "labelName": "",
+              "toViewId": "",
+              "customPinpointId": ""
+            },
+            {
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR19%20Clubhouse.-2ec7ee0d-163b-4c65-aa3c-7980bdcbb1d9.jpg?alt=media&token=b080c42b-c711-4531-9167-751660d94404",
+              "_id": "aea83af6-ab35-483c-9811-ed124b093f17",
+              "toViewId": "24ad15da-a286-422a-972b-0e17c02a6663",
+              "position": {
+                "x": 16.941029571370233,
+                "z": 219.25077851008194,
+                "y": -2.508005958922307
+              },
+              "toViewName": "",
+              "info": {
+                "header": "",
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "url": "",
+                "width": 320,
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "height": 255,
+                "_id": "24889260-a082-4f76-87c6-5844ae211727",
+                "description": ""
+              },
+              "redirectUrl": "",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "labelName": "Clubhouse"
+            },
+            {
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "_id": "aa2810bd-6b70-4eb8-abdb-76ad85f8af65",
+              "position": {
+                "x": -215.7929518624677,
+                "y": -2.694731836074513,
+                "z": 42.610154233147625
+              },
+              "toViewId": "1cd62224-2604-471c-86a8-738974d9d924",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVIP%20Lounge%20VR-1cd62224-2604-471c-86a8-738974d9d924.jpg?alt=media&token=5de3ecde-c37a-4be5-989f-953483bdc65f",
+              "toViewName": "",
+              "redirectUrl": "",
+              "info": {
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "header": "",
+                "height": 255,
+                "width": 320,
+                "_id": "ba2dc4fd-0c7a-42f6-9363-5436fc8b4738",
+                "url": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "description": ""
+              },
+              "labelName": "VIP Lounge"
+            }
+          ],
+          "lensflare": {
+            "position": {
+              "z": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          "depthUrl": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2FVVIP%20Style%201.-f49d5d3f-8489-4772-a82f-7a97f44d763e.jpg?alt=media&token=05566a0e-d6ba-4358-ab34-10f8d5141934",
+          "_id": "1787c071-42b1-4062-b9d9-3c0bebb33749",
+          "labelName": "VVIP Style 1",
+          "depthMicroTexture": "",
+          "viewName": "VVIP Style 1.",
+          "fov": 100,
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVVIP%20Style%201.-f49d5d3f-8489-4772-a82f-7a97f44d763e.jpg?alt=media&token=36f54f3e-8d23-4673-9222-644e4c190f50",
+          "rotation": 0,
+          "floorPosition": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "imageUrl4000": ""
+        },
+        {
+          "imageUrl4000": "",
+          "imageUrl6000": "",
+          "pinpoints": [
+            {
+              "thumbnailUrl": "",
+              "customPinpointId": "",
+              "toViewId": "",
+              "labelName": "",
+              "info": {
+                "height": 255,
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "width": 320,
+                "description": "",
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "_id": "",
+                "url": "",
+                "header": ""
+              },
+              "position": {
+                "z": 0,
+                "y": 0,
+                "x": 0
+              },
+              "toViewName": "",
+              "_id": "",
+              "redirectUrl": ""
+            },
+            {
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "toViewId": "1cd62224-2604-471c-86a8-738974d9d924",
+              "position": {
+                "y": -3.5538254044055755,
+                "z": 179.0753737196576,
+                "x": 127.61950889087717
+              },
+              "toViewName": "",
+              "labelName": "VIP Lounge",
+              "_id": "1958cb35-3000-4691-b265-3ebd178b9dc3",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVIP%20Lounge%20VR-1cd62224-2604-471c-86a8-738974d9d924.jpg?alt=media&token=5de3ecde-c37a-4be5-989f-953483bdc65f",
+              "info": {
+                "header": "",
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "_id": "fd924bfb-ab4d-4665-a53b-95492c2ea14e",
+                "height": 255,
+                "width": 320,
+                "description": "",
+                "url": ""
+              },
+              "redirectUrl": ""
+            }
+          ],
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "8451316a-bf8c-4043-b75e-f7520dfd3497",
+            "name": "",
+            "image": "f821bc39-3867-4c32-aa9c-2c7e4b10f16a",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVVIP%20Style%202.-fe8fd4a0-ba0c-4c41-a21d-61f2138a972f.jpg?alt=media&token=462d90e8-8653-43e8-b949-e22d590a76d8",
+          "position": {
+            "x": 0,
+            "z": 0,
+            "y": 0
+          },
+          "rotation": -6.4,
+          "depthUrl": "",
+          "redirectUrl": "",
+          "depthMicroTexture": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2FVVIP%20Style%202.-fe8fd4a0-ba0c-4c41-a21d-61f2138a972f.jpg?alt=media&token=87c6bc53-9bf5-43e6-981b-135c125da4d6",
+          "fov": 100,
+          "_id": "2e3aa630-46bd-494f-af18-e47a02a23afe",
+          "depthMacroTexture": "",
+          "floorPosition": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "lensflare": {
+            "position": {
+              "y": 0,
+              "z": 0,
+              "x": 0
+            }
+          },
+          "viewName": "VVIP Style 2.",
+          "mapId": "cc3b4fb8-5efc-4e54-b3c7-b5b2214587ec",
+          "labelName": "VVIP Style 2"
+        },
+        {
+          "_id": "24ad15da-a286-422a-972b-0e17c02a6663",
+          "depthUrl": "",
+          "depthMicroTexture": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2FVR19-R1%20Clubhouse.-d141ef2c-68a6-4a10-a3a7-5ee070149749.jpg?alt=media&token=d76e825b-81eb-4a3c-ac23-060d9b55882f",
+          "mapId": "cc3b4fb8-5efc-4e54-b3c7-b5b2214587ec",
+          "imageUrl6000": "",
+          "floorPosition": {
+            "z": 0,
+            "y": 0,
+            "x": 0
+          },
+          "viewName": "VR19-R1 Clubhouse.",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR19-R1%20Clubhouse.-d141ef2c-68a6-4a10-a3a7-5ee070149749.jpg?alt=media&token=67b13426-867a-48ca-8514-b20473e0f899",
+          "imageUrl4000": "",
+          "labelName": "Clubhouse",
+          "pinpoints": [
+            {
+              "customPinpointId": "",
+              "toViewId": "",
+              "labelName": "",
+              "_id": "",
+              "thumbnailUrl": "",
+              "info": {
+                "_id": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "width": 320,
+                "url": "",
+                "description": "",
+                "height": 255,
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "header": ""
+              },
+              "toViewName": "",
+              "position": {
+                "z": 0,
+                "x": 0,
+                "y": 0
+              },
+              "redirectUrl": ""
+            }
+          ],
+          "redirectUrl": "",
+          "position": {
+            "z": 0,
+            "y": 0,
+            "x": 0
+          },
+          "depthMacroTexture": "",
+          "fov": 100,
+          "lensflare": {
+            "position": {
+              "y": 0,
+              "z": 0,
+              "x": 0
+            }
+          },
+          "rotation": 124.8,
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "0d820912-0019-4df8-b9b2-0a978e766e28",
+            "name": "",
+            "image": "215066ae-08ad-493c-8014-bc8ee5017441",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          }
+        },
+        {
+          "depthMacroTexture": "",
+          "mapId": "cc3b4fb8-5efc-4e54-b3c7-b5b2214587ec",
+          "lensflare": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "viewName": "3F Terrace 1.",
+          "imageUrl4000": "",
+          "position": {
+            "y": 0,
+            "x": 0,
+            "z": 0
+          },
+          "redirectUrl": "",
+          "rotation": 180,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2F3F%20Terrace%201.-31886368-1143-4282-b2e7-0dd57e8e2f41.jpg?alt=media&token=35dd51dd-0e05-495b-aebb-0a1d60ed5dcc",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F3F%20Terrace%201.-31886368-1143-4282-b2e7-0dd57e8e2f41.jpg?alt=media&token=f315071c-fbcb-484f-abee-340f19530c0a",
+          "fov": 100,
+          "imageUrl6000": "",
+          "labelName": "3F Terrace 1",
+          "floorPosition": {
+            "y": 0,
+            "z": 0,
+            "x": 0
+          },
+          "pinpoints": [
+            {
+              "toViewName": "",
+              "redirectUrl": "",
+              "info": {
+                "header": "",
+                "_id": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "url": "",
+                "description": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "width": 320,
+                "height": 255
+              },
+              "position": {
+                "y": 0,
+                "x": 0,
+                "z": 0
+              },
+              "toViewId": "",
+              "_id": "",
+              "customPinpointId": "",
+              "thumbnailUrl": "",
+              "labelName": ""
+            },
+            {
+              "_id": "10889fa7-e216-4d97-9547-0897c9602fa2",
+              "redirectUrl": "",
+              "labelName": "3F Terrace 2",
+              "position": {
+                "y": 6.821558208448432,
+                "x": -128.59688111007839,
+                "z": -178.29096169359516
+              },
+              "info": {
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "width": 320,
+                "height": 255,
+                "url": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "description": "",
+                "_id": "8e6bbb63-fec7-410b-b4e4-953005a1180a",
+                "header": ""
+              },
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2013%203F%20Terrace-dec9417f-dfbb-4d31-b539-fbc5e5b4f1ee.jpg?alt=media&token=3efc0b22-9e4d-48b1-9af5-6e57b4687e93",
+              "toViewId": "dec9417f-dfbb-4d31-b539-fbc5e5b4f1ee",
+              "toViewName": ""
+            },
+            {
+              "toViewName": "",
+              "_id": "00b01d4a-ab29-4ad7-a548-f63073f0c16d",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "redirectUrl": "",
+              "info": {
+                "header": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "description": "",
+                "width": 320,
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "url": "",
+                "height": 255,
+                "_id": "60d9629f-4061-4976-84b7-494c7ea4ae19"
+              },
+              "labelName": "Signature Restaurant",
+              "position": {
+                "y": 1.6253968051661325,
+                "x": 212.760284300021,
+                "z": 55.717355893442694
+              },
+              "toViewId": "ca064ec6-265d-4e34-8427-6940aa9514b7",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F3F%20Signature%20Resto%20VR-ca064ec6-265d-4e34-8427-6940aa9514b7.jpg?alt=media&token=0462ca53-80fb-40c1-a8e5-4cddfb67ae95"
+            }
+          ],
+          "_id": "f6fcf6b9-c7d9-41d8-b8fa-e75fba0093d0",
+          "depthMicroTexture": "",
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "7705e173-f219-41cb-87ec-609b18ce205c",
+            "name": "",
+            "image": "359d995d-98d6-4e4d-826f-e1d1a0b7004c",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "depthUrl": ""
+        },
+        {
+          "redirectUrl": "",
+          "imageUrl4000": "",
+          "texture": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Texture",
+              "generator": "Texture.toJSON"
+            },
+            "uuid": "835ca4df-d6d3-4078-9286-3b8e2f47ce6e",
+            "name": "",
+            "image": "4b0ab1c6-2d76-44bf-837b-8abb27604e17",
+            "mapping": 300,
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "center": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "wrap": [
+              1001,
+              1001
+            ],
+            "format": 1023,
+            "type": 1009,
+            "encoding": 3000,
+            "minFilter": 1006,
+            "magFilter": 1006,
+            "anisotropy": 1,
+            "flipY": true,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4
+          },
+          "viewName": "3F Terrace 2.",
+          "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F3F%20Terrace%202.-296932ed-a124-46ba-bf27-0b81d1c05a45.jpg?alt=media&token=2cf59ebe-b678-4cf8-a85c-10487ff5aeff",
+          "position": {
+            "y": 0,
+            "x": 0,
+            "z": 0
+          },
+          "labelName": "3F Terrace 2",
+          "pinpoints": [
+            {
+              "customPinpointId": "",
+              "info": {
+                "height": 255,
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "description": "",
+                "_id": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "url": "",
+                "width": 320,
+                "header": ""
+              },
+              "_id": "",
+              "position": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+              },
+              "thumbnailUrl": "",
+              "toViewId": "",
+              "labelName": "",
+              "toViewName": "",
+              "redirectUrl": ""
+            },
+            {
+              "labelName": "Front Gate",
+              "toViewId": "e1f1bfc5-821a-4157-8233-5cc42a41586a",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%201%20Front%20Gate-e1f1bfc5-821a-4157-8233-5cc42a41586a.jpg?alt=media&token=05a5e643-cce7-410a-adc4-b5cae8f3c71c",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "position": {
+                "y": -43.2848313633399,
+                "x": 202.32534615748546,
+                "z": -74.63965642083515
+              },
+              "_id": "cf62512d-4000-40f4-a2e3-495f594805cd",
+              "toViewName": "",
+              "redirectUrl": "",
+              "info": {
+                "_id": "c2652e37-7b60-46f5-abd0-8e7763c977c2",
+                "width": 320,
+                "description": "",
+                "url": "",
+                "height": 255,
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "header": ""
+              }
+            },
+            {
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2019%20Amphitheater-841152d2-00b4-4f1c-bee0-c0f42e044ca1.jpg?alt=media&token=1ba97bc3-4f5f-4914-aea7-f4e45315a5fc",
+              "_id": "04a4239c-4b8e-4014-84be-bffcae496b78",
+              "toViewName": "",
+              "labelName": "Amphitheater",
+              "toViewId": "841152d2-00b4-4f1c-bee0-c0f42e044ca1",
+              "position": {
+                "y": -5.483138094408259,
+                "x": -180.0147912181339,
+                "z": 126.23482288777652
+              },
+              "redirectUrl": "",
+              "info": {
+                "header": "",
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "description": "",
+                "height": 255,
+                "width": 320,
+                "url": "",
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "_id": "2e689b8d-0c47-433c-ac9f-bf6c979b725a"
+              },
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4"
+            },
+            {
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2012%203F%20Terrace-f6fcf6b9-c7d9-41d8-b8fa-e75fba0093d0.jpg?alt=media&token=5a738066-86d4-4776-9923-a2cc5a49cd5d",
+              "info": {
+                "width": 320,
+                "url": "",
+                "description": "",
+                "height": 255,
+                "header": "",
+                "_id": "038677ea-f25b-4f84-a3cc-e1c912db7130",
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "position": {
+                  "x": 340,
+                  "y": 220
+                }
+              },
+              "redirectUrl": "",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "_id": "7ff6f609-e2fa-413b-8603-242d58016881",
+              "toViewId": "f6fcf6b9-c7d9-41d8-b8fa-e75fba0093d0",
+              "position": {
+                "y": -45.07098294238779,
+                "x": 122.87610657722897,
+                "z": 176.73939582397492
+              },
+              "labelName": "3F Terrace 1",
+              "toViewName": ""
+            },
+            {
+              "toViewName": "",
+              "toViewId": "ca064ec6-265d-4e34-8427-6940aa9514b7",
+              "labelName": "Signature Restaurant",
+              "redirectUrl": "",
+              "position": {
+                "x": 187.4694209121789,
+                "y": -27.349756568647418,
+                "z": 111.80418790490252
+              },
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2F3F%20Signature%20Resto%20VR-ca064ec6-265d-4e34-8427-6940aa9514b7.jpg?alt=media&token=0462ca53-80fb-40c1-a8e5-4cddfb67ae95",
+              "info": {
+                "header": "",
+                "height": 255,
+                "width": 320,
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "url": "",
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "description": "",
+                "_id": "57a1cb75-bc85-4ccb-a0c2-a0a2b3b3c473"
+              },
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "_id": "b8a35953-1278-4748-bf18-cb02e9c8906d"
+            },
+            {
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2021-1afe0cda-6f5d-4411-be45-361dc4d5a444.jpg?alt=media&token=ce96d39f-ef91-4f51-ac58-1eaa91cc6e80",
+              "position": {
+                "z": 143.92933145326228,
+                "x": -139.27687956126036,
+                "y": -90.87426762293215
+              },
+              "labelName": "Outdoor Patio",
+              "_id": "5d97e07e-48d8-47f9-b974-4d726605e96f",
+              "toViewName": "",
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "info": {
+                "images": {
+                  "imageList": [],
+                  "containerHeight": 100
+                },
+                "position": {
+                  "y": 220,
+                  "x": 340
+                },
+                "width": 320,
+                "description": "",
+                "header": "",
+                "_id": "c2da0026-90be-40dd-a0a3-2354f0880e1c",
+                "url": "",
+                "height": 255
+              },
+              "redirectUrl": "",
+              "toViewId": "1afe0cda-6f5d-4411-be45-361dc4d5a444"
+            },
+            {
+              "labelName": "Parking Lot",
+              "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Fthumbnail%2FVR%2020-068e24f5-87b9-4711-846d-830e9ec11e9d.jpg?alt=media&token=4e910332-f609-475f-a243-3bbc738a7956",
+              "toViewName": "",
+              "toViewId": "068e24f5-87b9-4711-846d-830e9ec11e9d",
+              "_id": "0e192b68-1c7f-43c4-9201-9ad69c5981a3",
+              "position": {
+                "z": -162.76012626643953,
+                "y": -57.31456855907982,
+                "x": 136.38412784915158
+              },
+              "info": {
+                "description": "",
+                "width": 320,
+                "images": {
+                  "containerHeight": 100,
+                  "imageList": []
+                },
+                "position": {
+                  "x": 340,
+                  "y": 220
+                },
+                "header": "",
+                "height": 255,
+                "_id": "8fac8120-9580-401d-accb-9ffe53ecb22e",
+                "url": ""
+              },
+              "customPinpointId": "735c614c-a9f7-4ec7-aae8-e3f9930177a4",
+              "redirectUrl": ""
+            }
+          ],
+          "imageUrl6000": "",
+          "depthMacroTexture": "",
+          "depthMicroTexture": "",
+          "depthUrl": "",
+          "rotation": 180,
+          "_id": "dec9417f-dfbb-4d31-b539-fbc5e5b4f1ee",
+          "lensflare": {
+            "position": {
+              "y": 0,
+              "z": 0,
+              "x": 0
+            }
+          },
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pongoprojects-us.appspot.com/o/pongovr%2Fprojects%2Ffdd79a97-24e8-5048-b39b-04e0e0cbcad8%2Frender%2F3F%20Terrace%202.-296932ed-a124-46ba-bf27-0b81d1c05a45.jpg?alt=media&token=7e2cd920-ecdd-4e8a-b871-1d2ebd954c23",
+          "mapId": "cc3b4fb8-5efc-4e54-b3c7-b5b2214587ec",
+          "fov": 100,
+          "floorPosition": {
+            "y": 0,
+            "x": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  ],
+  "type": "static"
+}

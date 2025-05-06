@@ -33,10 +33,10 @@ const MainObject = ({transition,disableTeleport}:{transition?:boolean,disableTel
                     value: nextView?.position 
                 },
                 currentRotation:{
-                    value:currentView.rotation
+                    value:currentView?.rotation
                 },
                 nextRotation:{
-                    value:nextView.rotation
+                    value:nextView?.rotation
                 },
             },
             vertexShader: `
@@ -136,11 +136,11 @@ const MainObject = ({transition,disableTeleport}:{transition?:boolean,disableTel
         if(isEditorMode){
             mainMeshRef.current.material.uniforms.currentRotation.value = currentView.rotation
         }
-    },[currentView.rotation])
+    },[currentView?.rotation])
 
     useEffect(()=>{
-        (camera as any).fov = currentView.fov
-    },[currentView.fov])
+        (camera as any).fov = currentView?.fov
+    },[currentView?.fov])
 
 
     return (  

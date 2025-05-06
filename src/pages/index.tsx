@@ -1,14 +1,16 @@
 import Head from "next/head";
-import project from '../project.json'
-import dynamic from 'next/dynamic'
+import { useRouter } from "next/router";
 
-const VrViewerNoSSR = dynamic(() => import('@/components/vrViewer'), { ssr: false })
-
+const navLists = [
+    'Wenzhou',
+    'Wuhan'
+]
 const HomepageIndex = () => {
+    const router= useRouter()
     return ( 
         <>
             <Head>
-                <title>{'VR Viewer'}</title>
+                <title>{'Topgolf VR Viewer'}</title>
                 <meta 
                     name="description"
                     content={'Topgolf VR Viewer.'}
@@ -24,7 +26,7 @@ const HomepageIndex = () => {
                 {/* Open Graph Protocol */}
                 <meta 
                     property="og:title" 
-                    content={'VR Viewer'}
+                    content={'Topgolf VR Viewer'}
                 />
                 <meta
                     property="og:description"
@@ -56,9 +58,48 @@ const HomepageIndex = () => {
                     content="an example render of Pongo" 
                 />
             </Head>
-            <VrViewerNoSSR
-                vrProject={project as any}
-            />
+            <div
+                style={{
+                    padding:`4rem`,
+                    boxSizing:`border-box`,
+                    display:`flex`,
+                    flexDirection:`column`,
+                    gap:`2rem`
+                }}
+            >
+                <div
+                    style={{
+                        fontSize:`2.4rem`,
+                        fontWeight:`700`
+                    }}
+                >
+                   Project Directory 
+                </div>
+                {/*  */}
+                <div
+                    style={{
+                        display:`flex`,
+                        flexDirection:`column`,
+                        gap:`1rem`
+                    }}
+                >
+                    {navLists.map((nav,index)=>
+                        <div
+                            style={{
+                                cursor:`pointer`,
+                                fontSize:`1.6rem`,
+                                fontWeight:`400`
+                            }}
+                            key={index}
+                            onClick={()=>{
+                                router.push(`/${nav.toLowerCase()}`)
+                            }}
+                        >
+                            {nav}
+                        </div>
+                    )}
+                </div>
+            </div>
         </>
      );
 }
